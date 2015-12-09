@@ -1,0 +1,74 @@
+ul.tabList
+{
+	float:left;
+	margin:0;
+	padding:0;
+	list-style:0;
+	background-color:#d6dff7;
+}
+
+li.tabActive
+{
+	float:left;
+	display:inline;
+	
+	height:20px;
+	line-height:20px;	
+	text-align:center;
+
+	background-image:url(../images/tab/tab-active.png);
+	background-color:#d6dff7;
+	
+	padding-right:5px;
+	padding-left:5px;	
+}
+
+li.tab
+{
+	float:left;
+	display:inline;
+
+	height:20px;
+	line-height:20px;
+	text-align:center;
+
+	background-image:url(../images/tab/btn-80-bg.png);
+	background-color:#d6dff7;
+	
+	padding-right:5px;
+	padding-left:5px;	
+}
+
+li.tab2
+{
+	float:left;
+	display:inline;
+
+	height:20px;
+	line-height:20px;
+	text-align:center;
+
+
+	background-color:#d6dff7;
+	
+	padding-right:5px;
+	padding-left:5px;	
+}
+
+A.tabLink:visited
+{
+	font-weight:bold;
+	color:black;
+}
+
+A.tabLink:hover
+{
+	font-weight:bold;
+	color:red;
+}
+
+A.tabLink
+{
+	font-weight:bold;
+	color:black;
+}

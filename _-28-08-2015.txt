@@ -1,0 +1,16 @@
+[28/08/2015 - 11:13:57] updateMember - UPDATE qcs_members SET 
+		company_name = 'PromoFine AG' ,
+		lastname = 'Strub' ,
+		firstname = 'Josef' ,
+		status = '2' ,
+		type = 'other' ,
+		address = 'Hertistrasse 29' ,
+		phone = '' ,
+		email = 'jstrub@promofine.ch' ,
+		email2 = '' ,
+		website = 'www.promofine.ch' ,
+		classification = '' ,
+		linkedin = '' ,
+		comment = '			' ,
+		country = 'Switzerland' 
+		WHERE id = '316'

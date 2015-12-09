@@ -1,0 +1,10 @@
+[21/07/2015 - 05:08:11] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[21/07/2015 - 05:08:11] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = 'abdff308e868636df4d9322f5fa54d13'
+[21/07/2015 - 05:08:11] Identification reussie pour l'utilisateur : leo
+[21/07/2015 - 05:08:11] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[21/07/2015 - 05:08:11] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99' 
+[21/07/2015 - 05:08:19] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR status = '0'  ) AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[21/07/2015 - 05:08:19] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR status = '0'  ) AND status <> '99' 
+[21/07/2015 - 05:08:36] getMemberById - SELECT * FROM qcs_members WHERE id = '7'
+[21/07/2015 - 05:08:47] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[21/07/2015 - 05:08:47] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99' 

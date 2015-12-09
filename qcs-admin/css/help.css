@@ -1,0 +1,45 @@
+#helpDocument
+{
+	color:red;
+	width:150px;
+}
+
+.infobulle
+{
+	display:none;
+}
+
+.infobulle img
+{
+	float:left;
+	padding-right:2px;
+	padding-bottom:2px;
+} 
+
+
+a.info:hover
+{
+	background:white; /* BUG IE */
+	text-decoration:none;
+	 z-index:100;
+}
+
+a.info:hover .infobulle
+{
+	display:inline; 
+	position:absolute;
+    top:75px; 
+    left:0px; 
+    width:200px;
+    border:2px solid #6699cc;   
+    text-align: justify;
+    font-weight:none;
+    padding:3px;    
+    background-color:white;
+    text-decoration:none;
+    color:red;
+    margin:0;
+    z-index:100;
+}
+
+

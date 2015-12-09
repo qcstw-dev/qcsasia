@@ -1,0 +1,25 @@
+[04/07/2014 - 09:41:13] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  ) ORDER BY id ASC LIMIT 0 , 100
+[04/07/2014 - 09:41:13] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  )
+[04/07/2014 - 09:41:15] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  ) ORDER BY id ASC LIMIT 0 , 100
+[04/07/2014 - 09:41:15] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  )
+[04/07/2014 - 09:41:16] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  ) ORDER BY id ASC LIMIT 0 , 100
+[04/07/2014 - 09:41:16] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  )
+[04/07/2014 - 09:41:18] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  ) ORDER BY id ASC LIMIT 0 , 100
+[04/07/2014 - 09:41:18] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  )
+[04/07/2014 - 09:42:13] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  ) ORDER BY id ASC LIMIT 0 , 100
+[04/07/2014 - 09:42:13] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  )
+[04/07/2014 - 09:43:43] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  1 = 1) ) ORDER BY id ASC LIMIT 0 , 100
+[04/07/2014 - 09:43:43] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  1 = 1) )
+[04/07/2014 - 09:44:37] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  1 = 1) ORDER BY id ASC LIMIT 0 , 100
+[04/07/2014 - 09:44:37] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  1 = 1)
+[04/07/2014 - 09:44:42] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  1 = 1) ORDER BY id ASC LIMIT 0 , 100
+[04/07/2014 - 09:44:42] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  1 = 1)
+[04/07/2014 - 09:44:47] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  1 = 1) ORDER BY id ASC LIMIT 0 , 100
+[04/07/2014 - 09:44:47] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  1 = 1)
+[04/07/2014 - 09:44:49] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  1 = 1) ORDER BY id ASC LIMIT 0 , 100
+[04/07/2014 - 09:44:49] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  1 = 1)
+[04/07/2014 - 09:45:14] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  1 = 1) ORDER BY id ASC LIMIT 0 , 100
+[04/07/2014 - 09:45:14] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  1 = 1)
+[04/07/2014 - 09:46:12] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  1 = 1) ORDER BY id ASC LIMIT 0 , 100
+[04/07/2014 - 09:46:13] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0 OR  1 = 1)
+[04/07/2014 - 12:37:06] deleteMember - DELETE FROM qcs_members WHERE id = '61'

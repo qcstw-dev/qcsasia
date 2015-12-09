@@ -1,0 +1,28 @@
+[13/05/2015 - 03:10:37] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[13/05/2015 - 03:10:37] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = '57135983e20340d9e1b8d8b4d9f6efa4'
+[13/05/2015 - 03:10:37] Identification reussie pour l'utilisateur : leo
+[13/05/2015 - 03:10:38] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[13/05/2015 - 03:10:38] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99' 
+[13/05/2015 - 03:10:46] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%moa%' OR
+		email2 LIKE '%moa%' OR 
+		lastname LIKE '%moa%' OR 
+		firstname LIKE '%moa%' OR 
+		website LIKE '%moa%' OR 
+		address LIKE '%moa%' OR 
+		comment LIKE '%moa%' OR 
+		company_name LIKE  '%moa%') AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[13/05/2015 - 03:10:46] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%moa%' OR
+		email2 LIKE '%moa%' OR 
+		lastname LIKE '%moa%' OR 
+		firstname LIKE '%moa%' OR 
+		website LIKE '%moa%' OR 
+		address LIKE '%moa%' OR 
+		comment LIKE '%moa%' OR 
+		company_name LIKE  '%moa%') AND status <> '99' 
+[13/05/2015 - 06:30:21] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[13/05/2015 - 06:30:21] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = '57135983e20340d9e1b8d8b4d9f6efa4'
+[13/05/2015 - 06:30:21] Identification reussie pour l'utilisateur : leo
+[13/05/2015 - 06:30:21] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[13/05/2015 - 06:30:21] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99' 

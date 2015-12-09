@@ -1,0 +1,2 @@
+[13/05/2015 - 03:03:44] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[13/05/2015 - 03:03:44] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99' 

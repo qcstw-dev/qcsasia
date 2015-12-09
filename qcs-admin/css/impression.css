@@ -1,0 +1,29 @@
+.cellule
+{
+	font-family: SansSerif; 
+	color: rgb(0, 64, 128); 
+	font-size: 12px;
+	
+	border-left: 1px solid rgb(204, 204, 204); 
+	border-right: 1px solid rgb(204, 204, 204); 
+	border-bottom: 1px solid rgb(204, 204, 204); 
+	padding-left: 2px; 
+	padding-bottom: 1px; 
+	padding-right: 1px;
+}
+
+.titre
+{
+	font-family: Trebuchet MS; 
+	background-color: rgb(240, 240, 240); 
+	font-size: 12px;
+	font-weight: bold;
+	
+	border-top: 1px solid rgb(204, 204, 204); 
+	border-right: 1px solid rgb(204, 204, 204); 
+	border-bottom: 1px solid rgb(204, 204, 204); 
+	background-color: rgb(240, 240, 240); 
+	padding-left: 2px; 
+	padding-bottom: 1px; 
+	padding-right: 1px;
+}

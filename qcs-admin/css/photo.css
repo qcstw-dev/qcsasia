@@ -1,0 +1,17 @@
+a.photoa:hover
+{
+	border: 2px solid #FFC65D;
+	width:100px;
+}
+
+a.photoa
+{
+	border: 2px solid #FFFFFF;
+	width:100px;
+}
+
+a img.appercu
+{	
+	border: 2px solid #FFC65D;
+}
+

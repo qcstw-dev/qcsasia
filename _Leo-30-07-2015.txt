@@ -1,0 +1,62 @@
+[30/07/2015 - 05:59:16] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[30/07/2015 - 05:59:16] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99' 
+[30/07/2015 - 05:59:36] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%jocelyn%' OR
+		email2 LIKE '%jocelyn%' OR 
+		lastname LIKE '%jocelyn%' OR 
+		firstname LIKE '%jocelyn%' OR 
+		website LIKE '%jocelyn%' OR 
+		address LIKE '%jocelyn%' OR 
+		comment LIKE '%jocelyn%' OR 
+		company_name LIKE  '%jocelyn%') AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[30/07/2015 - 05:59:36] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%jocelyn%' OR
+		email2 LIKE '%jocelyn%' OR 
+		lastname LIKE '%jocelyn%' OR 
+		firstname LIKE '%jocelyn%' OR 
+		website LIKE '%jocelyn%' OR 
+		address LIKE '%jocelyn%' OR 
+		comment LIKE '%jocelyn%' OR 
+		company_name LIKE  '%jocelyn%') AND status <> '99' 
+[30/07/2015 - 05:59:41] getMemberById - SELECT * FROM qcs_members WHERE id = '302'
+[30/07/2015 - 05:59:51] getMemberById - SELECT * FROM qcs_members WHERE id = '302'
+[30/07/2015 - 05:59:57] getMemberById - SELECT * FROM qcs_members WHERE id = '302'
+[30/07/2015 - 06:00:03] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%jocelyn%' OR
+		email2 LIKE '%jocelyn%' OR 
+		lastname LIKE '%jocelyn%' OR 
+		firstname LIKE '%jocelyn%' OR 
+		website LIKE '%jocelyn%' OR 
+		address LIKE '%jocelyn%' OR 
+		comment LIKE '%jocelyn%' OR 
+		company_name LIKE  '%jocelyn%') AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[30/07/2015 - 06:00:03] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%jocelyn%' OR
+		email2 LIKE '%jocelyn%' OR 
+		lastname LIKE '%jocelyn%' OR 
+		firstname LIKE '%jocelyn%' OR 
+		website LIKE '%jocelyn%' OR 
+		address LIKE '%jocelyn%' OR 
+		comment LIKE '%jocelyn%' OR 
+		company_name LIKE  '%jocelyn%') AND status <> '99' 
+[30/07/2015 - 06:31:46] deleteMember - DELETE FROM qcs_members WHERE id = '302'
+[30/07/2015 - 06:31:46] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[30/07/2015 - 06:31:46] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99' 
+[30/07/2015 - 06:31:52] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%jocelyn%' OR
+		email2 LIKE '%jocelyn%' OR 
+		lastname LIKE '%jocelyn%' OR 
+		firstname LIKE '%jocelyn%' OR 
+		website LIKE '%jocelyn%' OR 
+		address LIKE '%jocelyn%' OR 
+		comment LIKE '%jocelyn%' OR 
+		company_name LIKE  '%jocelyn%') AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[30/07/2015 - 06:31:53] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%jocelyn%' OR
+		email2 LIKE '%jocelyn%' OR 
+		lastname LIKE '%jocelyn%' OR 
+		firstname LIKE '%jocelyn%' OR 
+		website LIKE '%jocelyn%' OR 
+		address LIKE '%jocelyn%' OR 
+		comment LIKE '%jocelyn%' OR 
+		company_name LIKE  '%jocelyn%') AND status <> '99' 

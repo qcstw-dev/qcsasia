@@ -1,0 +1,19 @@
+[30/07/2015 - 05:59:56] updateMember - UPDATE qcs_members SET 
+		company_name = 'test' ,
+		lastname = 'test' ,
+		firstname = 'test' ,
+		status = '2' ,
+		type = 'supplier' ,
+		address = 'test' ,
+		phone = '' ,
+		email = 'jocelyn@qcsasia.com' ,
+		email2 = '' ,
+		website = 'www.qcsasia.com' ,
+		classification = '' ,
+		linkedin = '' ,
+		comment = '			' ,
+		country = 'twn' 
+		WHERE id = '302'
+[30/07/2015 - 06:00:27] getIdMemberByEmail - SELECT * FROM qcs_members WHERE email = 'jocelyn@qcsasia.com'
+[30/07/2015 - 06:00:27] addHistory - INSERT INTO qcs_history (idMember, createdDate , type , filename) VALUES('302' , '2015-07-30 06:00:27' , 'connection' , '')
+[30/07/2015 - 06:00:27] getMemberTypeById - SELECT * FROM qcs_members WHERE id = '302'

@@ -1,0 +1,45 @@
+.contact
+{
+	width:750px;
+	margin-right:auto;
+	margin-left:auto;	
+	margin-top:20px;;
+	border-width:1px;
+	border-style:solid;
+	font-weight:bold;
+	text-align:left;
+}
+
+.contact p
+{
+	margin:10px;
+}
+
+.contact img
+{
+	margin-right:10px;
+}
+
+/* FORMULAIRE D'ENVOIE DE MESSAGE */
+
+.formMessage
+{
+	width:90%;
+	margin-right:auto;
+	margin-left:auto;	
+	margin-top:20px;;
+	border-width:1px;
+	border-style:solid;
+	font-weight:bold;
+	text-align:left;
+}
+
+.formMessage p
+{
+	margin:10px;
+}
+
+.formMessage img
+{
+	margin-right:10px;
+}

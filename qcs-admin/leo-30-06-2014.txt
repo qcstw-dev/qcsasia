@@ -1,0 +1,237 @@
+[30/06/2014 - 09:40:46] getTabMember - SELECT * FROM qcs_members  ORDER BY name ASC LIMIT 0 , 100
+[30/06/2014 - 09:40:46] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 09:44:13] getTabMember - SELECT * FROM qcs_members  ORDER BY name ASC LIMIT 0 , 100
+[30/06/2014 - 09:44:13] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 09:44:15] getTabMember - SELECT * FROM qcs_members  ORDER BY name ASC LIMIT 0 , 100
+[30/06/2014 - 09:44:15] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 09:56:27] getTabMember - SELECT * FROM qcs_members  ORDER BY name ASC LIMIT 0 , 100
+[30/06/2014 - 09:56:27] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:04:12] getTabMember - SELECT * FROM qcs_members  ORDER BY name ASC LIMIT 0 , 100
+[30/06/2014 - 10:04:12] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:07:27] getTabMember - SELECT * FROM qcs_members  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:07:27] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:08:15] getTabMember - SELECT * FROM qcs_members  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:08:15] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:09:25] getTabMember - SELECT * FROM qcs_members  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:09:25] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:09:53] getTabMember - SELECT * FROM qcs_members  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:09:53] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:10:21] getTabMember - SELECT * FROM qcs_members  ORDER BY company_name ASC LIMIT 0 , 100
+[30/06/2014 - 10:10:22] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:10:23] getTabMember - SELECT * FROM qcs_members  ORDER BY type ASC LIMIT 0 , 100
+[30/06/2014 - 10:10:23] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:10:25] getTabMember - SELECT * FROM qcs_members  ORDER BY type DESC LIMIT 0 , 100
+[30/06/2014 - 10:10:25] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:10:27] getTabMember - SELECT * FROM qcs_members  ORDER BY email ASC LIMIT 0 , 100
+[30/06/2014 - 10:10:27] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:10:29] getTabMember - SELECT * FROM qcs_members  ORDER BY country ASC LIMIT 0 , 100
+[30/06/2014 - 10:10:29] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:10:33] getTabMember - SELECT * FROM qcs_members  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:10:33] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:10:34] getTabMember - SELECT * FROM qcs_members  ORDER BY country_ip ASC LIMIT 0 , 100
+[30/06/2014 - 10:10:34] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:10:36] getTabMember - SELECT * FROM qcs_members  ORDER BY country_ip DESC LIMIT 0 , 100
+[30/06/2014 - 10:10:36] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:14:17] getTabMember - SELECT * FROM qcs_members  ORDER BY country_ip DESC LIMIT 0 , 100
+[30/06/2014 - 10:14:17] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:15:42] getTabMember - SELECT * FROM qcs_members  ORDER BY name ASC LIMIT 0 , 100
+[30/06/2014 - 10:15:42] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:16:07] getTabMember - SELECT * FROM qcs_members  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:16:07] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:17:16] getTabMember - SELECT * FROM qcs_members  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:17:16] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:17:20] getTabMember - SELECT * FROM qcs_members  ORDER BY country_ip ASC LIMIT 0 , 100
+[30/06/2014 - 10:17:20] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:23:57] getTabMember - SELECT * FROM qcs_members  ORDER BY country_ip ASC LIMIT 0 , 100
+[30/06/2014 - 10:23:57] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:26:42] getTabMember - SELECT * FROM qcs_members  ORDER BY country_ip ASC LIMIT 0 , 100
+[30/06/2014 - 10:26:43] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:29:22] getTabMember - SELECT * FROM qcs_members  ORDER BY country_ip ASC LIMIT 0 , 100
+[30/06/2014 - 10:29:22] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:32:55] getTabMember - SELECT * FROM qcs_members  ORDER BY country_ip ASC LIMIT 0 , 100
+[30/06/2014 - 10:32:55] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:33:17] getTabMember - SELECT * FROM qcs_members  ORDER BY country_ip ASC LIMIT 0 , 100
+[30/06/2014 - 10:33:17] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:33:48] getTabMember - SELECT * FROM qcs_members  ORDER BY country_ip ASC LIMIT 0 , 100
+[30/06/2014 - 10:33:48] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:33:52] getTabMember - SELECT * FROM qcs_members  ORDER BY country_ip ASC LIMIT 0 , 100
+[30/06/2014 - 10:33:52] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:34:17] getTabMember - SELECT * FROM qcs_members  ORDER BY country_ip ASC LIMIT 0 , 100
+[30/06/2014 - 10:34:17] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:34:36] getTabMember - SELECT * FROM qcs_members  ORDER BY country_ip ASC LIMIT 0 , 100
+[30/06/2014 - 10:34:36] getNbMember - SELECT count(id) FROM qcs_members 
+[30/06/2014 - 10:40:01] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND createdDate >= '2014/02/06' AND createdDate <= '2014/12/06' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:40:01] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND createdDate >= '2014/02/06' AND createdDate <= '2014/12/06'
+[30/06/2014 - 10:40:41] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND createdDate >= '2014/01/06' AND createdDate <= '2014/11/06' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:40:42] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND createdDate >= '2014/01/06' AND createdDate <= '2014/11/06'
+[30/06/2014 - 10:41:40] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:41:40] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 10:41:45] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation >= '2014/09/06' AND date_creation <= '2014/10/06' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:41:45] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation >= '2014/09/06' AND date_creation <= '2014/10/06'
+[30/06/2014 - 10:42:07] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation >= '2013/01/11' AND date_creation <= '2014/18/06' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:42:07] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation >= '2013/01/11' AND date_creation <= '2014/18/06'
+[30/06/2014 - 10:42:39] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2011/08/06' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:42:39] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2011/08/06'
+[30/06/2014 - 10:43:51] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation >= '2014/09/06' AND date_creation <= '2014/02/06' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:43:51] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation >= '2014/09/06' AND date_creation <= '2014/02/06'
+[30/06/2014 - 10:44:04] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2011/02/06' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:44:04] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2011/02/06'
+[30/06/2014 - 10:44:14] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2010/02/06' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:44:14] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2010/02/06'
+[30/06/2014 - 10:44:22] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2010/02/06' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:44:22] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2010/02/06'
+[30/06/2014 - 10:44:31] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2008/02/06' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:44:31] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2008/02/06'
+[30/06/2014 - 10:44:38] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2008/02/06' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:44:38] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2008/02/06'
+[30/06/2014 - 10:44:45] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/02/06' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:44:45] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/02/06'
+[30/06/2014 - 10:44:51] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2010/02/06' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:44:51] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2010/02/06'
+[30/06/2014 - 10:45:03] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2010/01/06' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:45:03] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2010/01/06'
+[30/06/2014 - 10:45:24] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/01/10' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:45:24] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/01/10'
+[30/06/2014 - 10:45:32] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:45:32] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10'
+[30/06/2014 - 10:51:35] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:51:35] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10'
+[30/06/2014 - 10:51:46] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:51:46] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10'
+[30/06/2014 - 10:51:58] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:51:58] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10'
+[30/06/2014 - 10:52:30] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:52:30] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10'
+[30/06/2014 - 10:52:55] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:52:55] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10'
+[30/06/2014 - 10:52:59] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:52:59] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10'
+[30/06/2014 - 10:53:09] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:53:09] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10'
+[30/06/2014 - 10:54:46] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:54:46] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10'
+[30/06/2014 - 10:55:49] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:55:49] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10'
+[30/06/2014 - 10:56:04] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:56:04] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10'
+[30/06/2014 - 10:58:40] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND (email LIKE '%2009/10/10%' OR company_name LIKE  '%leo%') ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:58:40] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND (email LIKE '%2009/10/10%' OR company_name LIKE  '%leo%')
+[30/06/2014 - 10:58:58] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%') ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 10:58:58] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%')
+[30/06/2014 - 11:01:25] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%') ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 11:01:25] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%')
+[30/06/2014 - 11:01:42] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%') ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 11:01:42] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%')
+[30/06/2014 - 11:03:52] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%') ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 11:03:52] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%')
+[30/06/2014 - 11:03:57] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%') ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 11:03:57] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%')
+[30/06/2014 - 11:04:02] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%') ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 11:04:02] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%')
+[30/06/2014 - 11:10:43] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND status_email_verified = '0' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%') ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 11:10:43] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND status_email_verified = '0' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%')
+[30/06/2014 - 11:11:02] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND status= '1' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%') ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 11:11:02] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND status= '1' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%')
+[30/06/2014 - 12:14:18] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND status= '1' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%') ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:14:18] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND status= '1' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%')
+[30/06/2014 - 12:14:24] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND country = 'FRANCE>FRANCE</option><option value = ' AND status= '1' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%') ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:14:24] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND country = 'FRANCE>FRANCE</option><option value = ' AND status= '1' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%')
+[30/06/2014 - 12:15:30] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND country = 'FRANCE>FRANCE</option><option value = ' AND status= '1' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%') ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:15:30] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND country = 'FRANCE>FRANCE</option><option value = ' AND status= '1' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%')
+[30/06/2014 - 12:15:42] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND country = 'Hong Kong' AND status= '1' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%') ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:15:42] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND date_creation <= '2009/10/10' AND country = 'Hong Kong' AND status= '1' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%')
+[30/06/2014 - 12:15:52] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'france' AND status= '1' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%') ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:15:52] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'france' AND status= '1' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%')
+[30/06/2014 - 12:16:01] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'Taiwan' AND status= '1' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%') ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:16:01] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'Taiwan' AND status= '1' AND (email LIKE '%leo%' OR company_name LIKE  '%leo%')
+[30/06/2014 - 12:16:11] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'france' AND status= '1' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:16:11] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'france' AND status= '1'
+[30/06/2014 - 12:16:52] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'france' AND status= '1' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:16:52] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'france' AND status= '1'
+[30/06/2014 - 12:16:58] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'Guatemala' AND status= '1' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:16:58] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'Guatemala' AND status= '1'
+[30/06/2014 - 12:17:04] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'Thailand' AND status= '1' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:17:04] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'Thailand' AND status= '1'
+[30/06/2014 - 12:17:18] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'Sweden' AND status= '1' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:17:18] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'Sweden' AND status= '1'
+[30/06/2014 - 12:17:51] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'Sweden' AND status= '1' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:17:51] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'Sweden' AND status= '1'
+[30/06/2014 - 12:18:00] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'Guatemala' AND status= '1' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:18:00] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'Guatemala' AND status= '1'
+[30/06/2014 - 12:18:10] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'Guatemala' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:18:10] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'Guatemala'
+[30/06/2014 - 12:21:33] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'Guatemala' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:21:33] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'Guatemala'
+[30/06/2014 - 12:22:41] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'Guatemala' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:22:42] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'Guatemala'
+[30/06/2014 - 12:23:09] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'Guatemala' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:23:09] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'Guatemala'
+[30/06/2014 - 12:24:47] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'Guatemala' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:24:47] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'Guatemala'
+[30/06/2014 - 12:43:02] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'Guatemala' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:43:02] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'Guatemala'
+[30/06/2014 - 12:43:19] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'Canada' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:43:19] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'Canada'
+[30/06/2014 - 12:43:30] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:43:30] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 12:44:19] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:44:19] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 12:44:28] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'Canada' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:44:28] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'Canada'
+[30/06/2014 - 12:44:36] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:44:36] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 12:46:10] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'Canada' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:46:10] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'Canada'
+[30/06/2014 - 12:46:20] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:46:20] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 12:46:47] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:46:47] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 12:46:55] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'Canada' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:46:55] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'Canada'
+[30/06/2014 - 12:47:01] deleteMember - DELETE FROM qcs_members WHERE id = '53'
+[30/06/2014 - 12:47:01] deleteMember - DELETE FROM qcs_members WHERE id = '78'
+[30/06/2014 - 12:47:01] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:47:01] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 12:47:14] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:47:14] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 12:47:25] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'Canada' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:47:25] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'Canada'
+[30/06/2014 - 12:48:32] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'Canada' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:48:32] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'Canada'
+[30/06/2014 - 12:48:49] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:48:49] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 12:49:29] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:49:29] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 12:49:41] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'Taiwan' ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:49:41] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'Taiwan'
+[30/06/2014 - 12:50:14] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:50:14] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 12:50:21] updateMemberStatus - UPDATE users SET status = '0' WHERE id = '46'
+[30/06/2014 - 12:50:21] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:50:21] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 12:52:00] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:52:00] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 12:52:14] updateMemberStatus - UPDATE users SET status = '2' WHERE id = '46'
+[30/06/2014 - 12:52:14] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:52:14] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 12:53:43] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:53:43] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 12:54:31] updateMemberStatus - UPDATE users SET status = '0' WHERE id = '46'
+[30/06/2014 - 12:54:31] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:54:31] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 12:55:25] updateMemberStatus - UPDATE users SET status = '0' WHERE id = '46'
+[30/06/2014 - 12:55:25] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:55:25] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 12:56:06] updateMemberStatus - UPDATE qcs_members SET status = '0' WHERE id = '46'
+[30/06/2014 - 12:56:06] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:56:06] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 12:56:11] updateMemberStatus - UPDATE qcs_members SET status = '2' WHERE id = '46'
+[30/06/2014 - 12:56:11] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:56:11] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 12:56:18] updateMemberStatus - UPDATE qcs_members SET status = '1' WHERE id = '46'
+[30/06/2014 - 12:56:18] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[30/06/2014 - 12:56:18] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 12:57:05] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY status ASC LIMIT 0 , 100
+[30/06/2014 - 12:57:05] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[30/06/2014 - 12:57:08] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY status DESC LIMIT 0 , 100
+[30/06/2014 - 12:57:08] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 

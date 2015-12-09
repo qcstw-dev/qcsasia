@@ -1,0 +1,44 @@
+[07/09/2015 - 06:35:51] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[07/09/2015 - 06:35:51] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = 'abdff308e868636df4d9322f5fa54d13'
+[07/09/2015 - 06:35:51] Identification reussie pour l'utilisateur : leo
+[07/09/2015 - 06:35:52] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[07/09/2015 - 06:35:52] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99' 
+[07/09/2015 - 06:36:04] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%julien%' OR
+		email2 LIKE '%julien%' OR 
+		lastname LIKE '%julien%' OR 
+		firstname LIKE '%julien%' OR 
+		website LIKE '%julien%' OR 
+		address LIKE '%julien%' OR 
+		comment LIKE '%julien%' OR 
+		company_name LIKE  '%julien%') AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[07/09/2015 - 06:36:04] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%julien%' OR
+		email2 LIKE '%julien%' OR 
+		lastname LIKE '%julien%' OR 
+		firstname LIKE '%julien%' OR 
+		website LIKE '%julien%' OR 
+		address LIKE '%julien%' OR 
+		comment LIKE '%julien%' OR 
+		company_name LIKE  '%julien%') AND status <> '99' 
+[07/09/2015 - 06:36:14] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%info1%' OR
+		email2 LIKE '%info1%' OR 
+		lastname LIKE '%info1%' OR 
+		firstname LIKE '%info1%' OR 
+		website LIKE '%info1%' OR 
+		address LIKE '%info1%' OR 
+		comment LIKE '%info1%' OR 
+		company_name LIKE  '%info1%') AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[07/09/2015 - 06:36:14] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%info1%' OR
+		email2 LIKE '%info1%' OR 
+		lastname LIKE '%info1%' OR 
+		firstname LIKE '%info1%' OR 
+		website LIKE '%info1%' OR 
+		address LIKE '%info1%' OR 
+		comment LIKE '%info1%' OR 
+		company_name LIKE  '%info1%') AND status <> '99' 
+[07/09/2015 - 06:36:20] getMemberById - SELECT * FROM qcs_members WHERE id = '305'
+[07/09/2015 - 06:36:22] getMemberById - SELECT * FROM qcs_members WHERE id = '305'
+[07/09/2015 - 06:36:25] getMemberById - SELECT * FROM qcs_members WHERE id = '305'

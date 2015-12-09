@@ -1,0 +1,21 @@
+.recherche
+{
+	width:450px;
+	margin-right:auto;
+	margin-left:auto;	
+	margin-top:50px;;
+	border-width:1px;
+	border-style:solid;
+	font-weight:bold;
+	text-align:left;
+}
+
+.recherche p
+{
+	margin:10px;
+}
+
+.recherche img
+{
+	margin-right:10px;
+}

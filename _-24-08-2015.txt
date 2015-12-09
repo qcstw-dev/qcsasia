@@ -1,0 +1,6 @@
+[24/08/2015 - 16:12:10] getIdMemberByEmail - SELECT * FROM qcs_members WHERE email = 'guido@devico.be'
+[24/08/2015 - 16:12:10] addHistory - INSERT INTO qcs_history (idMember, createdDate , type , filename) VALUES('54' , '2015-08-24 16:12:10' , 'connection' , '')
+[24/08/2015 - 16:12:10] getMemberTypeById - SELECT * FROM qcs_members WHERE id = '54'
+[24/08/2015 - 16:29:04] getIdMemberByEmail - SELECT * FROM qcs_members WHERE email = 'guido@devico.be'
+[24/08/2015 - 16:29:04] addHistory - INSERT INTO qcs_history (idMember, createdDate , type , filename) VALUES('54' , '2015-08-24 16:29:04' , 'connection' , '')
+[24/08/2015 - 16:29:04] getMemberTypeById - SELECT * FROM qcs_members WHERE id = '54'

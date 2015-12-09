@@ -1,0 +1,32 @@
+[04/09/2015 - 07:58:31] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[04/09/2015 - 07:58:31] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = 'abdff308e868636df4d9322f5fa54d13'
+[04/09/2015 - 07:58:31] Identification reussie pour l'utilisateur : leo
+[04/09/2015 - 07:58:31] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[04/09/2015 - 07:58:31] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99' 
+[04/09/2015 - 07:58:51] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%vogue%' OR
+		email2 LIKE '%vogue%' OR 
+		lastname LIKE '%vogue%' OR 
+		firstname LIKE '%vogue%' OR 
+		website LIKE '%vogue%' OR 
+		address LIKE '%vogue%' OR 
+		comment LIKE '%vogue%' OR 
+		company_name LIKE  '%vogue%') AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[04/09/2015 - 07:58:51] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%vogue%' OR
+		email2 LIKE '%vogue%' OR 
+		lastname LIKE '%vogue%' OR 
+		firstname LIKE '%vogue%' OR 
+		website LIKE '%vogue%' OR 
+		address LIKE '%vogue%' OR 
+		comment LIKE '%vogue%' OR 
+		company_name LIKE  '%vogue%') AND status <> '99' 
+[04/09/2015 - 07:58:57] getMemberById - SELECT * FROM qcs_members WHERE id = '301'
+[04/09/2015 - 07:59:12] getMemberById - SELECT * FROM qcs_members WHERE id = '301'
+[04/09/2015 - 07:59:19] getMemberById - SELECT * FROM qcs_members WHERE id = '301'
+[04/09/2015 - 07:59:29] Deconnexion de l'utilisateur leo
+[04/09/2015 - 09:39:27] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[04/09/2015 - 09:39:27] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = 'abdff308e868636df4d9322f5fa54d13'
+[04/09/2015 - 09:39:27] Identification reussie pour l'utilisateur : leo
+[04/09/2015 - 09:39:28] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[04/09/2015 - 09:39:28] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99' 

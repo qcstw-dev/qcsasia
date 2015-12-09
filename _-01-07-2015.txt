@@ -1,0 +1,16 @@
+[01/07/2015 - 04:22:10] updateMember - UPDATE qcs_members SET 
+		company_name = 'happyROSS GmbH' ,
+		lastname = 'Ross' ,
+		firstname = 'Julia' ,
+		status = '2' ,
+		type = 'supplier' ,
+		address = 'Bundesstrasse 13' ,
+		phone = '' ,
+		email = 'julia@happyross.de' ,
+		email2 = '' ,
+		website = 'www.happyross.de' ,
+		classification = '' ,
+		linkedin = '' ,
+		comment = '			' ,
+		country = 'Germany' 
+		WHERE id = '288'

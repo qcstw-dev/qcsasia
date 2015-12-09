@@ -1,0 +1,22 @@
+[08/09/2015 - 11:22:59] updateMember - UPDATE qcs_members SET 
+		company_name = 'VOGUE DISTRIBUTION' ,
+		lastname = 'ELLOUZE' ,
+		firstname = 'HICHEM' ,
+		status = '2' ,
+		type = 'supplier' ,
+		address = 'MONTPLAISIR Tunis - Tunisia' ,
+		phone = '' ,
+		email = 'vogue.pub@topnet.tn' ,
+		email2 = '' ,
+		website = 'www.vogue-distribution.com' ,
+		classification = '' ,
+		linkedin = '' ,
+		comment = '			' ,
+		country = 'tunisia' 
+		WHERE id = '301'
+[08/09/2015 - 11:49:53] getIdMemberByEmail - SELECT * FROM qcs_members WHERE email = 'vogue.pub@topnet.tn'
+[08/09/2015 - 11:49:53] addHistory - INSERT INTO qcs_history (idMember, createdDate , type , filename) VALUES('301' , '2015-09-08 11:49:53' , 'connection' , '')
+[08/09/2015 - 11:49:53] getMemberTypeById - SELECT * FROM qcs_members WHERE id = '301'
+[08/09/2015 - 15:41:58] getIdMemberByEmail - SELECT * FROM qcs_members WHERE email = 'vogue.pub@topnet.tn'
+[08/09/2015 - 15:41:58] addHistory - INSERT INTO qcs_history (idMember, createdDate , type , filename) VALUES('301' , '2015-09-08 15:41:58' , 'connection' , '')
+[08/09/2015 - 15:41:58] getMemberTypeById - SELECT * FROM qcs_members WHERE id = '301'

@@ -1,0 +1,41 @@
+[11/05/2015 - 09:08:53] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[11/05/2015 - 09:08:53] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = '57135983e20340d9e1b8d8b4d9f6efa4'
+[11/05/2015 - 09:08:53] Identification reussie pour l'utilisateur : leo
+[11/05/2015 - 09:08:53] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[11/05/2015 - 09:08:53] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99' 
+[11/05/2015 - 09:09:00] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%giftatt%' OR
+		email2 LIKE '%giftatt%' OR 
+		lastname LIKE '%giftatt%' OR 
+		firstname LIKE '%giftatt%' OR 
+		website LIKE '%giftatt%' OR 
+		address LIKE '%giftatt%' OR 
+		comment LIKE '%giftatt%' OR 
+		company_name LIKE  '%giftatt%') AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[11/05/2015 - 09:09:00] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%giftatt%' OR
+		email2 LIKE '%giftatt%' OR 
+		lastname LIKE '%giftatt%' OR 
+		firstname LIKE '%giftatt%' OR 
+		website LIKE '%giftatt%' OR 
+		address LIKE '%giftatt%' OR 
+		comment LIKE '%giftatt%' OR 
+		company_name LIKE  '%giftatt%') AND status <> '99' 
+[11/05/2015 - 09:09:08] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%info%' OR
+		email2 LIKE '%info%' OR 
+		lastname LIKE '%info%' OR 
+		firstname LIKE '%info%' OR 
+		website LIKE '%info%' OR 
+		address LIKE '%info%' OR 
+		comment LIKE '%info%' OR 
+		company_name LIKE  '%info%') AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[11/05/2015 - 09:09:08] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%info%' OR
+		email2 LIKE '%info%' OR 
+		lastname LIKE '%info%' OR 
+		firstname LIKE '%info%' OR 
+		website LIKE '%info%' OR 
+		address LIKE '%info%' OR 
+		comment LIKE '%info%' OR 
+		company_name LIKE  '%info%') AND status <> '99' 

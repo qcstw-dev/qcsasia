@@ -1,0 +1,128 @@
+[02/07/2014 - 04:42:07] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[02/07/2014 - 04:42:07] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = '6caf9864a88f8b0dd1bfad26d2c99125'
+[02/07/2014 - 04:42:07] Identification reussie pour l'utilisateur : leo
+[02/07/2014 - 04:42:08] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[02/07/2014 - 04:42:08] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[02/07/2014 - 04:42:13] getMemberById - SELECT * FROM qcs_members WHERE id = '46'
+[02/07/2014 - 04:42:15] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[02/07/2014 - 04:42:16] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[02/07/2014 - 04:42:20] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 04:42:24] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 04:56:10] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 04:57:18] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'france' ORDER BY id ASC LIMIT 0 , 100
+[02/07/2014 - 04:57:18] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'france'
+[02/07/2014 - 04:58:25] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 04:58:29] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 04:58:32] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'france' ORDER BY id ASC LIMIT 0 , 100
+[02/07/2014 - 04:58:32] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'france'
+[02/07/2014 - 04:58:56] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 04:58:57] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'france' ORDER BY id ASC LIMIT 0 , 100
+[02/07/2014 - 04:58:57] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'france'
+[02/07/2014 - 04:59:35] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'france' ORDER BY id ASC LIMIT 0 , 100
+[02/07/2014 - 04:59:35] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'france'
+[02/07/2014 - 04:59:42] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'france' ORDER BY id ASC LIMIT 0 , 100
+[02/07/2014 - 04:59:42] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'france'
+[02/07/2014 - 05:00:24] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:00:27] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:00:40] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'france' ORDER BY id ASC LIMIT 0 , 100
+[02/07/2014 - 05:00:40] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'france'
+[02/07/2014 - 05:01:56] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:02:00] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:02:03] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'france' ORDER BY id ASC LIMIT 0 , 100
+[02/07/2014 - 05:02:03] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'france'
+[02/07/2014 - 05:02:46] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:02:50] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:03:32] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:03:35] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:03:39] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:03:44] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:04:23] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:04:25] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:07:28] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND country = 'france' ORDER BY id ASC LIMIT 0 , 100
+[02/07/2014 - 05:07:28] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND country = 'france'
+[02/07/2014 - 05:10:10] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:10:14] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:10:17] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:10:20] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:10:50] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:10:55] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:11:47] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:12:49] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:13:24] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:13:27] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:13:49] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:14:18] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:14:22] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:14:34] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:20:29] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:20:36] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:21:33] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:22:51] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:22:59] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:23:21] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:24:08] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:24:11] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:24:13] updateMember - UPDATE qcs_members SET 
+		company_name = 'DJ INVEST' ,
+		lastname = 'DRAPEAU' ,
+		firstname = '' ,
+		status = '0' ,
+		type = '0' ,
+		address = '' ,
+		phone = '' ,
+		email = 'jeandrapeau@yahoo.com' ,
+		email2 = '' ,
+		website = '' ,
+		classification = '' ,
+		linkedin = '' ,
+		comment = '			'
+		WHERE id = '48'
+[02/07/2014 - 05:28:17] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:28:20] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:28:25] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:28:30] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:29:52] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:30:40] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:37:07] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:37:42] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:37:56] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 05:48:42] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 10:07:58] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[02/07/2014 - 10:07:59] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = '6caf9864a88f8b0dd1bfad26d2c99125'
+[02/07/2014 - 10:07:59] Identification reussie pour l'utilisateur : leo
+[02/07/2014 - 10:08:00] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[02/07/2014 - 10:08:00] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[02/07/2014 - 10:08:21] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 10:11:00] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 10:11:21] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 10:11:27] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[02/07/2014 - 10:11:27] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[02/07/2014 - 10:11:31] getMemberById - SELECT * FROM qcs_members WHERE id = '46'
+[02/07/2014 - 10:16:57] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[02/07/2014 - 10:16:57] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = '6caf9864a88f8b0dd1bfad26d2c99125'
+[02/07/2014 - 10:16:57] Identification reussie pour l'utilisateur : leo
+[02/07/2014 - 10:16:57] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[02/07/2014 - 10:16:57] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[02/07/2014 - 10:17:07] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 10:17:18] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  ORDER BY id ASC LIMIT 0 , 100
+[02/07/2014 - 10:17:18] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1 
+[02/07/2014 - 10:17:21] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 10:18:03] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 10:18:14] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 10:19:08] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 10:19:11] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 10:19:12] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 10:19:21] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 11:07:51] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 11:08:17] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 11:08:57] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 11:09:55] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 11:11:44] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 11:12:20] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 11:12:50] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 11:12:52] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 11:13:03] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 11:13:15] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 11:13:18] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 11:13:29] getMemberById - SELECT * FROM qcs_members WHERE id = '48'
+[02/07/2014 - 11:15:08] getMemberById - SELECT * FROM qcs_members WHERE id = '48'

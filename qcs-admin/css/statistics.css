@@ -1,0 +1,21 @@
+.statistics
+{
+	width:777px;
+	margin-right:auto;
+	margin-left:auto;	
+	margin-top:20px;;
+	border-width:1px;
+	border-style:solid;
+	font-weight:bold;
+	
+}
+
+.statistics p
+{
+	margin:10px;
+}
+
+.statistics img
+{
+	margin-left:0px;
+}

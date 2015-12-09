@@ -1,0 +1,1024 @@
+﻿/*
+Theme Name:     SoftPvsKeychain Theme
+Theme URI:      http://www.netixy.com/
+Description:    Thème enfant de Iconic One
+Author:         Nico
+Author URI:     http://www.netixy.com/
+Template:       iconic-one                      
+Version:        0.1.0
+*/
+
+@import url("../iconic-one/style.css");
+
+/* ################################################################################################################### */
+/* ############################################## MOBILE ############################################################# */
+/* ################################################################################################################### */
+
+
+@media screen and (max-width: 768px)
+{
+	.rev_slider_wrapper
+	{
+		display:none !important;
+	}
+	
+	hgroup
+	{
+		display:none  !important;
+	}
+	
+	#dc_jqaccordion_widget-s16-item ul a
+	{
+		background:none !important;
+		background-color:white !important;
+	}
+	
+	.widget-area
+	{
+		clear:both;
+	}
+}
+
+#searchform
+	{
+		display:none;
+	}
+	
+/* SLOGAN */
+/* ################################################################################################################### */
+
+hgroup a
+{
+	font-family:Times New Roman !important;
+	font-weight:bold !important; 
+}
+
+.site-description
+{
+	font-family:Times New Roman;
+	font-size:13px !important; 
+	font-weight:bold !important; 
+	padding-left:15px;
+	font-style:italic;
+	text-shadow:none;
+}
+
+/* ################################################################################################################### */
+
+p 
+{
+	margin: 15px 0;
+	text-align: justify;
+}
+
+article > p
+{
+	margin:0px;
+	float:none;
+	
+}
+
+/* ################################################################################################################### */
+/* ############################################## SLIDER ############################################################# */
+/* ################################################################################################################### */
+
+.fullwidthbanner-container
+{
+	width:960px;
+}
+
+/* Evite que menu deroulant passe sous le slider */
+
+#rev_slider_5_1_wrapper 
+{
+	z-index: 11;
+}
+
+#menu-top .sub-menu
+{
+	z-index:20;
+}
+
+/* ################################################################################################################### */
+/* ############################################## FORM CONTACT US #################################################### */
+/* ################################################################################################################### */
+
+.wpcf7-form-control-wrap textarea
+{
+	border:1px solid #359302 !important;
+/*	width: 50em !important; */
+}
+	
+.wpcf7-submit
+{
+	background-color:#359302 !important;
+	padding:5px 20px;
+	color:white;
+/*	margin-left:300px; */
+}
+
+
+/* ################################################################################################################### */
+/* ############################################## TOP BAR ############################################################ */
+/* ################################################################################################################### */
+
+body 
+{
+	background: #FFFFFF url(img/bg.png) repeat-x scroll 0 0;
+}
+
+body .site
+{
+	background: #FFFFFF url(img/bg.png) repeat-x scroll 0 0;
+	padding: 0px 24px 0;
+}
+
+.site-header
+{
+	margin-bottom:0px !important;
+}
+
+/* ################################################################################################################### */
+/* ############################################## TOP BAR ############################################################ */
+/* ################################################################################################################### */
+
+
+
+
+#topbar 
+{
+	color: #F5F5F4;
+	float: right;
+	font-size: 1.1em;
+	height: 26px;
+	margin: 6px 0 0 0;
+	padding: 0;
+	width: 100%;
+	text-align: right;
+}
+
+#topbar a
+{
+	color: #F5F5F4;
+	text-decoration:none;
+}
+
+#topbar a:hover
+{
+	text-decoration:underline;
+}
+
+/* ################################################################################################################### */
+/* ############################################## RECHERCHE ########################################################## */
+/* ################################################################################################################### */
+
+#searchform
+{
+	position:relative;
+	top:-40px;
+	left:810px;
+
+}
+
+#searchform label , #searchform input
+{
+	padding:5px;
+}
+
+#searchsubmit 
+{
+	background-color:#359302 !important;
+}
+
+input
+{
+	border:1px solid #359302 !important;
+}
+
+.hentry
+{
+	min-height: 180px;
+}
+
+/* ##############################################  BUTTON  ########################################################### */
+
+.button
+{
+	background-color:#359302 !important;
+	padding:5px;
+	color:white;
+}
+	
+	
+	
+/* ################################################################################################################### */
+/* ############################################## FORMULAIRE MEMBER AREA ############################################# */
+/* ################################################################################################################### */
+
+.msg-error div 
+{
+	padding: 4px;
+	background-color:red;
+}
+
+.msg-error 
+{
+	font-size: 13px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+
+#member-frm, #not-member-frm 
+{
+    border: 1px solid #BBB;
+    background-color: #e3e3e3;
+    width: 300px;
+    padding: 6px;
+    
+    font-family: Helvetica, Arial, sans serif;
+}
+
+.left 
+{
+	float: left;
+}
+
+.right 
+	{
+	float: right;
+}
+
+#not-member-frm p 
+{
+    text-align: left;
+    font-size: 12px;
+}
+
+#member-frm h3 , #not-member-frm h3 , #sidebar h2 
+{
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin-top: 15px;
+	margin-bottom: 4px;
+	font-weight: bold;
+	color: #5f5f5f;
+}
+
+input, select, textarea 
+{
+	border: 1px solid #57ABE6;
+	color: #454743;
+}
+
+input, textarea, keygen, select, button, isindex 
+{
+	margin: 0em;
+	font: -webkit-small-control;
+	color: initial;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+	
+	padding: 1px 0px;
+}
+
+label 
+{
+	font-weight: bold;
+	font-size: 12px;
+	float: left;
+	width: 120px;
+	color: #545454;
+	text-align: right;
+	padding-right: 3px;
+}
+
+
+
+
+
+#table-form-search td
+{
+	padding:4px;
+}
+	
+/* ################################################################################################################### */
+
+/* ################################################################################################################### */
+/* ############################################## HEADER ############################################################# */
+/* ################################################################################################################### */
+
+#top-menu
+{
+	position:absolute;
+	top:70px;
+	right:120px;
+	margin:0px;
+	padding:0px;
+}
+
+#top-menu li
+{
+	float:left;
+	margin-right:10px;
+}
+
+
+.socialmedia
+{
+	margin-top:70px;	
+}
+
+/* ################################################################################################################### */
+
+/* ##################################### SIDEBAR LEFT ################################# */
+
+#sidebar
+{
+	float:none;
+}
+
+#primary
+{
+	float:right;
+}
+
+
+/* ###################################################################################### */
+
+/* ##################################### SIDEBAR RIGHT ################################# */
+
+.sidebar-product
+{
+	
+	float:right;
+	width:300px;
+/*	background-color:rgb(179, 192, 181); */
+	padding-bottom:20px;
+	padding-top:20px;
+	
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+	
+	border-width:1px;
+	border-style:solid;
+	
+	border-color:#359302;
+	
+	/*
+	position:absolute;
+	right:0px;
+	margin:20px;padding:20px;width:200px;background-color:red;float:right;height:900px;
+	*/
+}
+
+.product , .product_sidebar
+{
+	font-size:14px;
+	font-family: "Helvetica","Times New Roman","Times",serif;
+	
+}
+
+.product h2 , .product_sidebar h2
+{
+	padding-top:10px;
+	padding-left:10px;
+	color:#444;
+	font-size:1.5em;
+}
+
+/* ###################################################################################### */
+
+
+hgroup 
+{
+	display: inline-block;
+	margin: 1px 0;
+	padding: 10px 0;
+	float: none;
+	position: relative;
+	top: -20px;
+}
+
+dl.list-product
+{
+	width:180px;
+        height:225px;
+}
+
+.entry-content img, .comment-content img, .widget img, img.header-image, .author-avatar img, img.wp-post-image
+{
+	margin-bottom:0px;
+}
+
+.entry-content img, .comment-content img, .widget img, img.header-image, .author-avatar img, img.wp-post-image
+{
+	box-shadow:none;
+}
+
+.site-header {
+	border: none;
+}
+
+.site-content
+{
+/*	width:95%; */
+	border-right:none;
+}
+
+
+
+.footercopy 
+{
+	padding-left: 10px;
+}
+
+.entry-content li, .comment-content li, .mu_register li 
+{
+	margin-top:5px;
+}
+
+.entry-content ol, .comment-content ol, .entry-content ul, .comment-content ul, .mu_register ul 
+{
+	margin-bottom:5px;
+}
+
+.wrapper {
+	border: none;
+	margin-bottom: 20px;
+}
+
+footer[role="contentinfo"] 
+{
+	height: 75px;
+	padding: 10px 0 15px 0;
+        margin:0 auto;
+   
+	color: #fff;
+	background-color: #359302;
+}
+
+footer[role="contentinfo"] a {
+	color: #fff;
+}
+
+
+
+.attachment-post-thumbnail
+{
+	float:left;
+/*	border-style:solid; */
+/*	border-width:1px; */
+/*	border-color:#359302; */
+	margin-right:40px;
+}
+
+/* TITRE DES WIDGET */
+/*############################################################"*/
+.widget-area .widget-title 
+{
+	background: #359302;
+	color: white;
+}
+
+.widget-area .widget a
+{
+	color: #359302;
+}
+
+
+	/* #359302; */
+
+#menu-item-720 a , #menu-item-721 a , #menu-item-737 a , #menu-item-744 a , #menu-item-1443 a , #menu-item-732 a , #menu-item-1605 a , #menu-item-1606 a , #menu-item-745 a , #menu-item-746 a , #menu-item-747 a , #menu-item-748 a , #menu-item-749 a
+{
+	background: #F3F3F3  !important;
+	color:black !important;
+	
+	
+}
+
+#menu-item-720 a:hover , #menu-item-721 a:hover , #menu-item-737 a:hover , #menu-item-744 a:hover , #menu-item-1443 a:hover , #menu-item-732 a:hover , #menu-item-1605 a:hover , #menu-item-1606 a:hover
+{
+	background: #0D5995  !important;
+	color:white !important;
+}
+
+
+#menu-item-1603 a , #menu-item-1604 a /* SORT BY , BROWS */
+{
+	background: #67AE73 !important;
+}
+
+
+
+/*############################################################"*/
+
+/* COULEUR ///////////////////////////////////////////////////////////////////////     */
+
+.themonic-nav .current-menu-item > a, .themonic-nav .current-menu-ancestor > a, .themonic-nav .current_page_item > a, .themonic-nav .current_page_ancestor > a 
+{
+	background: none repeat scroll 0 0 #359302;
+}
+
+.themonic-nav ul.nav-menu, .themonic-nav div.nav-menu > ul
+{
+	border-bottom: 5px solid #359302;
+}
+
+.themonic-nav li:hover 
+{
+	background:#359302;
+}
+
+/* FIN COULEUR /////////////////////////////////////////////////////////////////////// */
+
+.slideshow_container a 
+{
+	margin: 10px 10px 15px 10px !important;
+}
+
+.slideshow_container .slideshow_pagination .slideshow_pagination_center 
+{
+	background-color: #359302;
+	padding: 5px;
+}
+
+/* ############################################################################### */
+/* ############################## MENU SORT / MEMBER AREA ######################## */
+/* ############################################################################### */
+
+.dcjq-accordion
+{
+	background: #359302 !important;
+	
+	border-bottom: 1px solid white !important;
+	border-top: 1px solid white !important;
+
+	border-right: 1px solid white !important;
+	border-left: 1px solid white !important;
+}
+
+.dcjq-accordion ul a 
+{
+	background: #359302 !important;
+	
+	border-bottom: 1px solid white !important;
+	border-top: 1px solid white !important;
+}
+
+.dcjq-accordion ul a:hover
+{
+	background: #0D5995 !important;
+	
+	border-bottom: 1px solid #0D5995 !important;
+	border-top: 1px solid #0D5995 !important;
+}
+
+/* ############################################################################### */
+	
+/* LISTE DES PRODUITS ################################################################################ */
+
+dl.list-product 
+{	
+	/* width: 102px; */
+	text-align: center;
+	padding: 10px;
+	float: left;
+	margin-top: 0;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	font-weight:bold;
+
+	border-style:solid; 
+	border-width:1px;
+	border-color:white;
+}
+
+dl.list-product:hover
+{	
+	border-style:solid; 
+	border-width:1px;
+	border-color:#359302;
+}
+
+.list-product dt img 
+{
+	 width: 180px; 
+         margin-bottom:5px;
+	/* height: 80px; */
+}
+
+.list-product dd
+{
+       line-height:15px; 
+}
+
+/* ################################################################################################################### */
+/* ############################################## LISTE CATEGORIE PRODUIT HOME ############################################ */
+/* ################################################################################################################### */
+
+.cartouche-categorie-home-wrapper
+{
+	float:left;
+	width:184px;
+	margin:5px;
+	margin-top:0px;
+	
+	border-style:solid; 
+	border-width:1px;
+	border-color:white;
+	
+	padding:10px;
+	
+
+	
+}
+
+.cartouche-categorie-home-wrapper:hover
+{
+	border-color:blue;
+	border-radius:1em;
+}
+
+
+.cartouche-categorie-home
+{
+	/* clear:both; */
+	border-width:1px;
+	border-style:solid;
+	height:184px;
+	margin-bottom:30px;
+	
+	
+	margin-right:20px;
+	margin:0px;
+	border-width:0px;
+	
+	padding-bottom:10px;
+}
+
+.cartouche-categorie-home img
+{
+	border-width:1px;
+	border-style:solid;
+	border-color:#359302;
+}
+.lienThumbnailCategory-home-1 img
+{
+	width:180px;
+	height:180px;
+	
+	margin-right:0px;
+}
+
+.lienThumbnailCategory-home-4 img
+{
+	width:90px;
+	height:90px;
+	
+	border-width:1px;
+	border-style:solid;
+}
+
+.thumbnail-1
+{
+	border-top-left-radius:1em;
+}
+
+.thumbnail-2
+{
+	border-top-right-radius:1em;
+}
+
+.thumbnail-3
+{
+	border-bottom-left-radius:1em;
+}
+
+.thumbnail-4
+{
+	border-bottom-right-radius:1em;
+}
+
+/* ################################################################################################################### */
+/* ############################################## LISTE CATEGORIE PRODUIT ############################################ */
+/* ################################################################################################################### */
+
+.cartouche-categorie
+{
+	/* clear:both; */
+	border-width:1px;
+	border-style:solid;
+	min-height:180px;
+	margin-bottom:30px;
+	
+	margin-right:20px;
+	padding-right:10px;
+	
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding:5px;
+	
+	border-color:#359302;
+}
+
+.cartouche-categorie h2
+{
+	clear:none;
+}
+
+.cartouche-categorie img
+{
+	width:180px;
+	height:180px;
+	
+	margin-right:10px;
+}
+
+.lienThumbnailCategory-4 img
+{
+	width:90px;
+	height:90px;
+}
+
+.imagecategoryclear
+{
+	clear:both;
+	float:left;
+}
+
+.imagecategoryfloat
+{
+	float:left;
+}
+
+
+/* ################################################################################################################### */
+/* ############################################## FICHE PRODUIT SIMPLE ############################################### */
+/* ################################################################################################################### */
+
+.fiche-produit-simple
+{
+ 	/* width:95%  !important; */
+}
+
+.header-text p
+{
+	font-weight:bold;
+	width:400px;
+	float:left;
+	
+}
+
+.fiche-produit-simple img.alignright 
+{
+	margin:0px;
+}
+
+
+.fiche-produit-simple img.product_image_option
+{
+	margin-bottom:10px;
+}
+
+/* LOGO PROCESS ##################################################################### */
+
+.fiche-produit-simple .logo-process
+{
+	/* border-style:solid; */
+	/*  border-width:1px; */
+	/*  border-color:#359302; */
+
+/*
+	 padding:20px;
+	 margin:10px;
+	 margin-left:0px;
+*/
+}
+
+
+.fiche-produit-simple .product .logo-process table tr td
+{
+	text-align:center;
+}
+
+.fiche-produit-simple img.product_image_logo_process
+{
+	 margin-right:10px;
+}
+
+/* FIN LOGO PROCESS ##################################################################### */
+.fiche-produit-simple #list_products table tr td img
+{
+	margin-top:10px;
+}
+
+
+
+/* LISTE DES OPTIONS ################################################################################ */
+
+.fiche-produit-simple div.option
+{
+	
+	padding: 10px;
+	float: left;
+	margin-top: 0;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	font-weight:bold;
+
+	width:460px;
+	/* background-color:red; */
+
+	border-style:solid; 
+	border-width:1px;
+	border-color:black;
+}
+
+.fiche-produit-simple div.option:hover
+{
+	border-color:red;
+}
+
+.fiche-produit-simple div.option a
+{
+	float:left; 
+}
+
+/* ################################################################################################################### */
+/* ############################################## FICHE PRODUIT COMPLIQUE ############################################ */
+/* ################################################################################################################### */
+
+.fiche-produit-complique #print_btn img
+{
+	padding:5px;
+	border:1px solid #ccc;
+	border-radius:5px;
+}
+
+/* OPTIONS AVAILABLE ##################################################################### */
+
+.fiche-produit-complique .options-available
+{
+	 /* border-style:solid; */
+	 /* border-width:1px; */
+	 /* border-color:#359302; */
+	 padding:20px;
+	 margin:10px;
+	 margin-left:0px;
+}
+
+
+.fiche-produit-complique .product .options-available table tr td
+{
+	text-align:center;
+}
+
+
+.fiche-produit-complique img.product_image_option
+{
+	margin-bottom:10px;
+}
+
+/* LOGO PROCESS ##################################################################### */
+
+.fiche-produit-complique .logo-process
+{
+	border-style:solid;
+	border-width:1px;
+	border-color:#359302;
+	
+	padding:10px;
+	margin:10px;
+	margin-left:0px;
+	
+	height:200px;
+}
+
+
+
+.fiche-produit-complique img.product_image_logo_process
+{
+	float:left;
+}
+
+/* LISTE DES OPTIONS ################################################################################ */
+
+.fiche-produit-complique dl.list-options
+{	
+	/* width: 102px; */
+	text-align: center;
+	padding: 5px;
+	float: left;
+	margin-top: 0;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	font-weight:bold;
+
+	border-style:solid; 
+	border-width:1px;
+	border-color:white;
+	
+	height:230px;
+}
+
+.fiche-produit-complique dl.list-options:hover
+{	
+	border-style:solid; 
+	border-width:1px;
+	border-color:#359302;
+}
+
+
+.fiche-produit-complique dl.list-options dt
+{
+	height:200px;
+}
+
+.fiche-produit-complique dl.list-options dd
+{
+	width:200px;
+}
+
+/* RECHERCHE DESIGN ################################################################################ */
+
+.search-result-design dl.list-options
+{	
+	/* width: 102px; */
+	text-align: center;
+	padding: 5px;
+	float: left;
+	margin-top: 0;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	font-weight:bold;
+
+	border-style:solid; 
+	border-width:1px;
+	border-color:white;
+	
+	height:260px;
+}
+
+.search-result-design dl.list-options:hover
+{	
+	border-style:solid; 
+	border-width:1px;
+	border-color:#359302;
+}
+
+
+.search-result-design dl.list-options dt
+{
+	height:200px;
+}
+
+.search-result-design dl.list-options dd
+{
+	width:200px;
+}
+
+/* DOCUMENT CENTER */
+/* ###################################################### */
+
+#table-document-center
+{
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+	
+	margin-top:20px;
+}		
+
+.entry-content #table-document-center  td, .comment-content #table-document-center td
+{
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+}
+
+#table-document-center td.title
+{
+	text-weight:bold;
+	color:white;
+	text-align:center;
+	font-size:14px;
+	background-color:#359302;
+}
+
+
+
+	
+@media screen and (min-width: 768px)
+{
+	#searchform
+	{
+		display:none !important;
+	}
+}

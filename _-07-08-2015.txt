@@ -1,0 +1,18 @@
+[07/08/2015 - 07:42:20] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%jocelyn%' OR
+		email2 LIKE '%jocelyn%' OR 
+		lastname LIKE '%jocelyn%' OR 
+		firstname LIKE '%jocelyn%' OR 
+		website LIKE '%jocelyn%' OR 
+		address LIKE '%jocelyn%' OR 
+		comment LIKE '%jocelyn%' OR 
+		company_name LIKE  '%jocelyn%') AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[07/08/2015 - 07:42:20] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%jocelyn%' OR
+		email2 LIKE '%jocelyn%' OR 
+		lastname LIKE '%jocelyn%' OR 
+		firstname LIKE '%jocelyn%' OR 
+		website LIKE '%jocelyn%' OR 
+		address LIKE '%jocelyn%' OR 
+		comment LIKE '%jocelyn%' OR 
+		company_name LIKE  '%jocelyn%') AND status <> '99' 

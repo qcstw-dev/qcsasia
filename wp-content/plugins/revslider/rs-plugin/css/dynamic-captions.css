@@ -1,0 +1,14 @@
+.tp-caption.largegreenbg {
+color:rgb(255, 255, 255);
+text-shadow:none;
+font-weight:300;
+font-size:50px;
+line-height:70px;
+font-family:"Open Sans";
+background-color:rgb(103, 174, 115);
+padding:0px 20px;
+border-width:0px;
+border-color:rgb(255, 255, 255);
+border-style:none;
+}
+

@@ -1,0 +1,90 @@
+#formLogin
+{
+	width:200px;
+	margin-right:auto;
+	margin-left:auto;
+	line-height:20px;
+
+}
+
+#contenulogin 
+{
+	height: 195px;
+	width: 340px;
+	margin-top:25px;
+	margin-left: auto;
+	margin-right: auto;
+	background:url(../images/login3.png)  no-repeat;
+	font-family : Verdana,Arial,Helvetica,sans-serif;
+	font-size : 12px;
+	color :#009966;
+	padding-bottom:0px;
+}
+
+#boxlogin 
+{
+	position:relative;
+	background-color: transparent;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 20px;
+	text-align: left;  /* Bug IE Grrr */
+	height: 190px;
+	width: 310px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+	font-family : Verdana,Arial,Helvetica,sans-serif;
+	font-size : 12px;
+	color :#009966;
+}
+
+#boxlogin p 
+{
+	text-align:center;
+}
+
+.row 
+{
+	clear: both;
+	padding-top: 5px;
+}
+
+.row  .label 
+{
+	float: left;
+	margin-left:10px;
+	text-align: left;
+	color :#009966;
+}
+
+.formw 
+{
+	float: right;
+	margin-right:10px;
+	text-align: right;
+}
+
+
+#boxlogin fieldset 
+{
+	background-color: transparent;
+	border: 2px solid #FFC65D;
+	padding-bottom:10px;
+}
+
+#boxlogin legend
+{
+	font-family:"Trebuchet MS",Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	background-color: transparent;
+}
+
+
+#boxlogin input 
+{
+	border: 1px solid #009966;
+}
+

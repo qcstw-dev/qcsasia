@@ -1,0 +1,163 @@
+body, input, select, td, textarea
+{ 
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+}
+
+h1, h2, h3, h4, h5, h6, p, strong, div, form, acronym, label, table, td, th, span, a, hr, code, pre, hr 
+{
+	margin:0;
+	padding:0;
+	font-size: 1em;
+	background-repeat:no-repeat;
+	list-style-type:none;
+}
+
+a, a:visited, a:hover 
+{ 
+	color:#666; text-decoration:none; 
+}
+
+a:hover 
+{
+	text-decoration: underline;
+}
+
+img
+{ 
+	border:none;
+}
+
+.title
+{
+	font-family :arial; 
+	font-weight: bold;
+	color:orange;
+	font-size:16px;
+}
+
+p .error , .error
+{
+	font-weight: bold;
+	color:red;
+}
+
+hr
+{
+	height: 1px;
+	color: #000;
+	clear:both;
+}
+
+h1 a
+{
+	color: #000;
+}
+
+p.actualites
+{
+	width:150px;
+	color:red;
+}
+
+a.liensPratiques
+{
+	width:150px;
+	font-weight:bold;
+	color:#6e89dd;
+}
+
+
+input.button
+{ 
+	width:90px;
+	font-family:arial;
+	font-weight:bold;
+	font-size:14px; 
+	background-color:#DEECFF;
+	color:red; 
+	border: 1px solid #793C03;
+	cursor:hand;
+}
+
+h1
+{
+	font-family :arial; 
+	font-weight:bold;
+	color:black;
+	font-size:16px
+}
+
+h2
+{
+	font-family :arial; 
+	font-weight:bold;
+	color:black;
+	font-size:14px
+}
+
+.formDocument
+{
+	margin:10px;
+	padding:10px;
+	border-style:solid;
+	border-width:1px;
+	padding:5px
+}
+
+.formDocument p
+{
+	margin-left:20px;
+}
+
+.formDocument p.title
+{
+ 	display:inline;
+ 	margin-left:0px;
+}
+
+.label
+{
+	font-family :arial; 
+	font-weight:bold;
+	color:black;
+	font-size:12px
+}
+
+.value
+{
+	font-family :arial; 
+	font-weight:bold;
+	color:#6e89dd;
+	font-size:12px
+}
+
+
+.formDocument p
+{
+	margin-bottom:5px;
+}
+
+/* paragraphe utilise pour aligner les champs dans la partie identifiant */
+.identifiant p.label
+{
+	float:left;
+	display:inline;
+	width:100px;
+	margin-bottom:0px;
+}
+
+
+img.info
+{
+	width:12;
+	height:11;
+	align:middle;
+}
+
+#support p
+{
+	font-weight: bold;
+	margin:10px;
+}
+

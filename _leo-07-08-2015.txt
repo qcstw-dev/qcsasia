@@ -1,0 +1,3 @@
+[07/08/2015 - 07:43:21] getMD5 - SELECT * FROM qcs_users WHERE username = 'Leo'
+[07/08/2015 - 07:43:21] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'Leo' AND password = 'abdff308e868636df4d9322f5fa54d13'
+[07/08/2015 - 07:43:21] Identification reussie pour l'utilisateur : Leo

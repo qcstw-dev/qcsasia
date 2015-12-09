@@ -1,0 +1,63 @@
+[08/07/2015 - 10:55:10] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[08/07/2015 - 10:55:10] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = '57135983e20340d9e1b8d8b4d9f6efa4'
+[08/07/2015 - 10:55:10] Identification reussie pour l'utilisateur : leo
+[08/07/2015 - 10:55:10] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[08/07/2015 - 10:55:10] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99' 
+[08/07/2015 - 11:30:47] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[08/07/2015 - 11:30:47] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = '0878e7591b038888aa5a3be1a12a9d7b'
+[08/07/2015 - 11:30:47] Identification echouee pour l'utilisateur : leo
+[08/07/2015 - 11:30:57] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[08/07/2015 - 11:30:57] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = '0878e7591b038888aa5a3be1a12a9d7b'
+[08/07/2015 - 11:30:57] Identification echouee pour l'utilisateur : leo
+[08/07/2015 - 11:45:04] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[08/07/2015 - 11:45:04] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = '57135983e20340d9e1b8d8b4d9f6efa4'
+[08/07/2015 - 11:45:04] Identification echouee pour l'utilisateur : leo
+[08/07/2015 - 11:45:17] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[08/07/2015 - 11:45:17] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = '0878e7591b038888aa5a3be1a12a9d7b'
+[08/07/2015 - 11:45:17] Identification echouee pour l'utilisateur : leo
+[08/07/2015 - 11:45:28] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[08/07/2015 - 11:45:28] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = '0878e7591b038888aa5a3be1a12a9d7b'
+[08/07/2015 - 11:45:28] Identification echouee pour l'utilisateur : leo
+[08/07/2015 - 11:45:40] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[08/07/2015 - 11:45:40] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = '0878e7591b038888aa5a3be1a12a9d7b'
+[08/07/2015 - 11:45:40] Identification echouee pour l'utilisateur : leo
+[08/07/2015 - 11:50:56] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[08/07/2015 - 11:50:56] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = 'abdff308e868636df4d9322f5fa54d13'
+[08/07/2015 - 11:50:56] Identification echouee pour l'utilisateur : leo
+[08/07/2015 - 11:51:17] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[08/07/2015 - 11:51:17] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = 'abdff308e868636df4d9322f5fa54d13'
+[08/07/2015 - 11:51:17] Identification echouee pour l'utilisateur : leo
+[08/07/2015 - 11:51:56] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[08/07/2015 - 11:51:56] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = 'abdff308e868636df4d9322f5fa54d13'
+[08/07/2015 - 11:51:56] Identification echouee pour l'utilisateur : leo
+[08/07/2015 - 11:52:51] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[08/07/2015 - 11:52:51] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = 'leo3009'
+[08/07/2015 - 11:52:51] Identification echouee pour l'utilisateur : leo
+[08/07/2015 - 11:56:22] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[08/07/2015 - 11:56:22] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = 'abdff308e868636df4d9322f5fa54d13'
+[08/07/2015 - 11:56:22] Identification reussie pour l'utilisateur : leo
+[08/07/2015 - 11:56:23] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[08/07/2015 - 11:56:23] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99' 
+[08/07/2015 - 11:56:54] Deconnexion de l'utilisateur leo
+[08/07/2015 - 11:57:02] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[08/07/2015 - 11:57:02] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = 'abdff308e868636df4d9322f5fa54d13'
+[08/07/2015 - 11:57:02] Identification reussie pour l'utilisateur : leo
+[08/07/2015 - 11:57:03] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[08/07/2015 - 11:57:03] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99' 
+[08/07/2015 - 12:33:29] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[08/07/2015 - 12:33:29] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = '0878e7591b038888aa5a3be1a12a9d7b'
+[08/07/2015 - 12:33:29] Identification echouee pour l'utilisateur : leo
+[08/07/2015 - 12:33:34] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[08/07/2015 - 12:33:34] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = '0878e7591b038888aa5a3be1a12a9d7b'
+[08/07/2015 - 12:33:34] Identification echouee pour l'utilisateur : leo
+[08/07/2015 - 12:33:35] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[08/07/2015 - 12:33:35] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = '57135983e20340d9e1b8d8b4d9f6efa4'
+[08/07/2015 - 12:33:35] Identification echouee pour l'utilisateur : leo
+[08/07/2015 - 12:33:54] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[08/07/2015 - 12:33:54] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = '0878e7591b038888aa5a3be1a12a9d7b'
+[08/07/2015 - 12:33:54] Identification echouee pour l'utilisateur : leo
+[08/07/2015 - 12:34:20] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[08/07/2015 - 12:34:20] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = 'abdff308e868636df4d9322f5fa54d13'
+[08/07/2015 - 12:34:20] Identification reussie pour l'utilisateur : leo
+[08/07/2015 - 12:34:21] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[08/07/2015 - 12:34:21] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99' 

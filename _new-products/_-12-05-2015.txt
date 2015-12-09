@@ -1,0 +1,120 @@
+[12/05/2015 - 03:18:11] updateMember - UPDATE qcs_members SET 
+		company_name = 'Davro Products' ,
+		lastname = 'Laemle' ,
+		firstname = 'Dave' ,
+		status = '2' ,
+		type = 'supplier' ,
+		address = '15 Charles Street' ,
+		phone = '' ,
+		email = 'dave@davroproducts.com' ,
+		email2 = '' ,
+		website = '' ,
+		classification = '' ,
+		linkedin = '' ,
+		comment = '			' ,
+		country = 'USA' 
+		WHERE id = '232'
+[12/05/2015 - 03:38:11] getIdMemberByEmail - SELECT * FROM qcs_members WHERE email = 'info1@qcsasia.com'
+[12/05/2015 - 03:38:11] addHistory - INSERT INTO qcs_history (idMember, createdDate , type , filename) VALUES('11' , '2015-05-12 03:38:11' , 'connection' , '')
+[12/05/2015 - 03:38:11] getMemberTypeById - SELECT * FROM qcs_members WHERE id = '11'
+[12/05/2015 - 03:43:27] updateMember - UPDATE qcs_members SET 
+		company_name = 'Davro Products' ,
+		lastname = 'Laemle' ,
+		firstname = 'Dave' ,
+		status = '2' ,
+		type = 'supplier' ,
+		address = '15 Charles Street' ,
+		phone = '' ,
+		email = 'dave@davroproducts.com' ,
+		email2 = '' ,
+		website = '' ,
+		classification = '' ,
+		linkedin = '' ,
+		comment = '						' ,
+		country = 'USA' 
+		WHERE id = '232'
+[12/05/2015 - 03:45:25] updateMember - UPDATE qcs_members SET 
+		company_name = 'Davro Products' ,
+		lastname = 'Laemle' ,
+		firstname = 'Dave' ,
+		status = '1' ,
+		type = 'supplier' ,
+		address = '15 Charles Street' ,
+		phone = '' ,
+		email = 'dave@davroproducts.com' ,
+		email2 = '' ,
+		website = '' ,
+		classification = '' ,
+		linkedin = '' ,
+		comment = '									' ,
+		country = 'USA' 
+		WHERE id = '232'
+[12/05/2015 - 03:46:04] updateMember - UPDATE qcs_members SET 
+		company_name = 'Davro Products' ,
+		lastname = 'Laemle' ,
+		firstname = 'Dave' ,
+		status = '2' ,
+		type = 'supplier' ,
+		address = '15 Charles Street' ,
+		phone = '' ,
+		email = 'dave@davroproducts.com' ,
+		email2 = '' ,
+		website = '' ,
+		classification = '' ,
+		linkedin = '' ,
+		comment = '												' ,
+		country = 'USA' 
+		WHERE id = '232'
+[12/05/2015 - 03:50:02] updateMember - UPDATE qcs_members SET 
+		company_name = 'Gift attitude' ,
+		lastname = 'prost' ,
+		firstname = 'christophe' ,
+		status = '2' ,
+		type = 'supplier' ,
+		address = 'france' ,
+		phone = '' ,
+		email = 'christophe@giftattitude.com' ,
+		email2 = '' ,
+		website = 'france' ,
+		classification = '' ,
+		linkedin = '' ,
+		comment = '			' ,
+		country = 'france' 
+		WHERE id = '233'
+[12/05/2015 - 03:50:10] getIdMemberByEmail - SELECT * FROM qcs_members WHERE email = 'christophe@giftattitude.com'
+[12/05/2015 - 03:50:10] addHistory - INSERT INTO qcs_history (idMember, createdDate , type , filename) VALUES('233' , '2015-05-12 03:50:10' , 'connection' , '')
+[12/05/2015 - 03:50:10] getMemberTypeById - SELECT * FROM qcs_members WHERE id = '233'
+[12/05/2015 - 09:36:02] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%euxin%' OR
+		email2 LIKE '%euxin%' OR 
+		lastname LIKE '%euxin%' OR 
+		firstname LIKE '%euxin%' OR 
+		website LIKE '%euxin%' OR 
+		address LIKE '%euxin%' OR 
+		comment LIKE '%euxin%' OR 
+		company_name LIKE  '%euxin%') AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[12/05/2015 - 09:36:02] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%euxin%' OR
+		email2 LIKE '%euxin%' OR 
+		lastname LIKE '%euxin%' OR 
+		firstname LIKE '%euxin%' OR 
+		website LIKE '%euxin%' OR 
+		address LIKE '%euxin%' OR 
+		comment LIKE '%euxin%' OR 
+		company_name LIKE  '%euxin%') AND status <> '99' 
+[12/05/2015 - 10:29:44] updateMember - UPDATE qcs_members SET 
+		company_name = 'gift attitude' ,
+		lastname = 'prost' ,
+		firstname = 'christophe' ,
+		status = '2' ,
+		type = 'supplier' ,
+		address = 'dd' ,
+		phone = '' ,
+		email = 'christophe@giftattitude.com' ,
+		email2 = '' ,
+		website = 'dd' ,
+		classification = '' ,
+		linkedin = '' ,
+		comment = '			' ,
+		country = 'taiwan' 
+		WHERE id = '234'

@@ -1,0 +1,21 @@
+.profil
+{
+	width:450px;
+	margin-right:auto;
+	margin-left:auto;	
+	margin-top:20px;;
+	border-width:1px;
+	border-style:solid;
+	font-weight:bold;
+	text-align:left;
+}
+
+.profil p
+{
+	margin:10px;
+}
+
+.profil img
+{
+	margin-right:10px;
+}

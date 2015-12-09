@@ -1,0 +1,3 @@
+[01/07/2014 - 09:30:38] getMD5 - SELECT * FROM qcs_users WHERE username = 'admin'
+[01/07/2014 - 09:30:39] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'admin' AND password = '3f46754e6bd351a544fe8e41671c18dc'
+[01/07/2014 - 09:30:39] Identification echouee pour l'utilisateur : admin

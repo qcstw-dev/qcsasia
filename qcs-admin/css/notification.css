@@ -1,0 +1,27 @@
+table.list
+{
+	border: 1px solid #666;
+	margin: 20px 0 20px 0;
+}
+
+table.list th, table.list td 
+{
+	padding: 2px 4px 2px 4px;
+	text-align: left;
+	vertical-align: top;
+}
+
+table.list thead tr 
+{
+  background-color: #6e89dd;
+}
+
+table.list tr.odd 
+{
+     background-color: #FFFFFF;
+}
+
+table.list tr.tableRowEven, tr.even 
+{
+  background-color: #d6dff7;
+}

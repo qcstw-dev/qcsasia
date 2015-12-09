@@ -1,0 +1,62 @@
+#cpanel 
+{  
+	text-align: center;  
+	vertical-align: middle;
+
+	position:absolute;
+	right:0;
+	top:4;
+	display:inline;
+}
+
+#cpanel div.icon   
+{ 
+	margin: 2px; 
+}
+
+#cpanel div.icon a 
+{ 
+	display: block; float: left;
+	/*
+	height: 97px !important;
+	height: 100px; 
+	width: 108px !important;
+	width: 110px; 
+	*/
+	height: 90px !important;
+	height: 90px; 
+	width: 90px !important;
+	width: 90px; 
+	vertical-align: middle; 
+	text-decoration : none;
+	/* border: 1px solid #DDD; */
+	/* padding: 2px 5px 1px 5px; */
+	
+	font-weight:bold;
+	
+	
+}
+
+#cpanel div.icon a:link    
+{  
+	color : #808080;  
+}
+
+#cpanel div.icon a:hover   
+{ 
+	color : #333; 
+	background-color: #f1e8e6;  
+	border: 1px solid #c24733;
+	/ * padding: 3px 4px 0px 6px;  */
+}
+
+#cpanel div.icon img 
+{ 
+	margin-top: 7px; 
+}
+
+#cpanel div.icon span 
+{ 
+	display: block; 
+	padding-top: 9px;
+}

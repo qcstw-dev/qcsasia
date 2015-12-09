@@ -1,0 +1,84 @@
+#product {
+	width: 940px;
+	font-family: "Helvetica","Times New Roman","Times",serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+#product h1, #product a {
+	color: #359302;
+	font-family: "Helvetica","Times New Roman","Times",serif;
+}
+
+#product h1 {
+	font-size: 28px;
+	line-height: 30px;
+}
+
+#product h2 {
+	color: #333;
+}
+
+#product ul li {
+	padding-bottom: 5px;
+}
+
+#product h1 {
+	/* margin-left: 20px; */
+}
+
+#product #product-image {
+	float: left;
+	border: 1px solid #359302;
+	width: 300px;
+	height: 300px;
+	/* margin-left: 20px; */
+}
+
+#product #product-description {
+	float: left;
+	border: 1px solid #359302;
+	width: 556px;
+	height: 284px;
+	/* margin-left: 20px; */
+	margin-left: 10px;
+	/* margin-right: 20px; */
+	margin-bottom: 20px;
+	padding: 8px;
+	padding-right: 10px;
+}
+
+#product #product-description p {
+	margin-top: 0;
+}
+
+#product #product-description p.first {
+	margin-bottom: 20px;
+}
+
+#product #product-description img {
+	margin-top: 10px;
+	border: 1px solid #359302;
+}
+
+#product #options, #product #logo-process, #product #footer-links {
+	clear: both;
+	border: 1px solid #359302;
+	width: 846px;
+	/* margin-left: 20px; */
+	/* margin-right: 20px; */
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+#product #options table, #product #logo-process table {
+	margin-bottom: 20px;
+}
+
+#product #options table tr td, #product #logo-process table tr td {
+	text-align: center;
+	padding-right: 10px;
+}
+

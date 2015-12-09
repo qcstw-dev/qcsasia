@@ -1,0 +1,44 @@
+[01/06/2015 - 10:17:03] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[01/06/2015 - 10:17:03] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = '57135983e20340d9e1b8d8b4d9f6efa4'
+[01/06/2015 - 10:17:03] Identification reussie pour l'utilisateur : leo
+[01/06/2015 - 10:17:04] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[01/06/2015 - 10:17:04] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99' 
+[01/06/2015 - 10:17:22] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%treelogi%' OR
+		email2 LIKE '%treelogi%' OR 
+		lastname LIKE '%treelogi%' OR 
+		firstname LIKE '%treelogi%' OR 
+		website LIKE '%treelogi%' OR 
+		address LIKE '%treelogi%' OR 
+		comment LIKE '%treelogi%' OR 
+		company_name LIKE  '%treelogi%') AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[01/06/2015 - 10:17:23] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%treelogi%' OR
+		email2 LIKE '%treelogi%' OR 
+		lastname LIKE '%treelogi%' OR 
+		firstname LIKE '%treelogi%' OR 
+		website LIKE '%treelogi%' OR 
+		address LIKE '%treelogi%' OR 
+		comment LIKE '%treelogi%' OR 
+		company_name LIKE  '%treelogi%') AND status <> '99' 
+[01/06/2015 - 10:17:32] getMemberById - SELECT * FROM qcs_members WHERE id = '253'
+[01/06/2015 - 10:17:37] getMemberById - SELECT * FROM qcs_members WHERE id = '253'
+[01/06/2015 - 10:17:48] getMemberById - SELECT * FROM qcs_members WHERE id = '253'
+[01/06/2015 - 10:17:59] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%treelogi%' OR
+		email2 LIKE '%treelogi%' OR 
+		lastname LIKE '%treelogi%' OR 
+		firstname LIKE '%treelogi%' OR 
+		website LIKE '%treelogi%' OR 
+		address LIKE '%treelogi%' OR 
+		comment LIKE '%treelogi%' OR 
+		company_name LIKE  '%treelogi%') AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[01/06/2015 - 10:17:59] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%treelogi%' OR
+		email2 LIKE '%treelogi%' OR 
+		lastname LIKE '%treelogi%' OR 
+		firstname LIKE '%treelogi%' OR 
+		website LIKE '%treelogi%' OR 
+		address LIKE '%treelogi%' OR 
+		comment LIKE '%treelogi%' OR 
+		company_name LIKE  '%treelogi%') AND status <> '99' 

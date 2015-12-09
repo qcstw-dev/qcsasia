@@ -1,0 +1,44 @@
+[01/07/2015 - 04:21:14] getMD5 - SELECT * FROM qcs_users WHERE username = 'leo'
+[01/07/2015 - 04:21:14] checkLoginAndPassword - SELECT username FROM qcs_users WHERE username = 'leo' AND password = '57135983e20340d9e1b8d8b4d9f6efa4'
+[01/07/2015 - 04:21:14] Identification reussie pour l'utilisateur : leo
+[01/07/2015 - 04:21:14] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[01/07/2015 - 04:21:14] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND status <> '99' 
+[01/07/2015 - 04:21:24] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%happy%' OR
+		email2 LIKE '%happy%' OR 
+		lastname LIKE '%happy%' OR 
+		firstname LIKE '%happy%' OR 
+		website LIKE '%happy%' OR 
+		address LIKE '%happy%' OR 
+		comment LIKE '%happy%' OR 
+		company_name LIKE  '%happy%') AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[01/07/2015 - 04:21:24] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%happy%' OR
+		email2 LIKE '%happy%' OR 
+		lastname LIKE '%happy%' OR 
+		firstname LIKE '%happy%' OR 
+		website LIKE '%happy%' OR 
+		address LIKE '%happy%' OR 
+		comment LIKE '%happy%' OR 
+		company_name LIKE  '%happy%') AND status <> '99' 
+[01/07/2015 - 04:21:34] getMemberById - SELECT * FROM qcs_members WHERE id = '288'
+[01/07/2015 - 04:22:01] getMemberById - SELECT * FROM qcs_members WHERE id = '288'
+[01/07/2015 - 04:22:10] getMemberById - SELECT * FROM qcs_members WHERE id = '288'
+[01/07/2015 - 04:22:24] getTabMember - SELECT * FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%happy%' OR
+		email2 LIKE '%happy%' OR 
+		lastname LIKE '%happy%' OR 
+		firstname LIKE '%happy%' OR 
+		website LIKE '%happy%' OR 
+		address LIKE '%happy%' OR 
+		comment LIKE '%happy%' OR 
+		company_name LIKE  '%happy%') AND status <> '99'  ORDER BY id ASC LIMIT 0 , 100
+[01/07/2015 - 04:22:24] getNbMember - SELECT count(id) FROM qcs_members WHERE 1 = 1  AND (1 = 0  OR 1 = 1) AND (1 = 0  OR 1 = 1) AND 
+		(email LIKE '%happy%' OR
+		email2 LIKE '%happy%' OR 
+		lastname LIKE '%happy%' OR 
+		firstname LIKE '%happy%' OR 
+		website LIKE '%happy%' OR 
+		address LIKE '%happy%' OR 
+		comment LIKE '%happy%' OR 
+		company_name LIKE  '%happy%') AND status <> '99' 

@@ -1,0 +1,77 @@
+table.list
+{
+	border: 1px solid #666;
+	margin: 20px 0 20px 0;
+}
+
+table.list th, table.list td 
+{
+	padding: 2px 4px 2px 4px;
+	text-align: left;
+	vertical-align: top;
+}
+
+table.list thead tr 
+{
+  background-color: #6e89dd;
+}
+
+table.list th.sorted 
+{
+    background-color: orange;
+}
+
+table.list th a, table.list th a:visited 
+{
+  color: white;
+}
+
+table.list th a:hover
+{
+  text-decoration: underline;
+  color:yellow;
+}
+
+table.list th.sorted a, table.list th.sortable a 
+{
+	background-position: right;
+	display: block;
+	width: 100%;
+}
+
+table.list th.sortable a 
+{
+	background-image: url(../images/arrow_off.png);
+}
+
+table.list th.order1 a 
+{
+	background-image: url(../images/arrow_down.png);
+}
+
+table.list th.order2 a 
+{
+	background-image: url(../images/arrow_up.png);
+}
+
+table.list tr.odd 
+{
+     background-color: #FFFFFF;
+}
+
+table.list tr.tableRowEven, tr.even 
+{
+  background-color: #d6dff7;
+}
+
+/* Ligne du tableau de la messagerie */
+
+table.list tr.message.pas_lu
+{
+     background-color;
+}
+
+table.list tr.message:hover
+{
+     background-color: #d6dff7;
+}
