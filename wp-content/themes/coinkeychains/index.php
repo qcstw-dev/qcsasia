@@ -43,7 +43,29 @@
 	
 
 ////////////////////////////////////////////////////////
-
+//echo $_SERVER['REMOTE_ADDR'];
+//if (!isset($_SESSION['country']) || !$_SESSION['country']) {
+////    test china
+////    $url = "http://freegeoip.net/json/113.100.99.221";
+//    $url = "http://freegeoip.net/json/" . $_SERVER['REMOTE_ADDR'];
+//
+//    set_time_limit(10);
+//
+//    $data = file_get_contents($url);
+//
+//    $obj = json_decode($data);
+//
+//    if (isset($obj->country_code) && $obj->country_code) {
+//        $_SESSION['country'] = $obj->country_code;
+//    } else {
+//        $_SESSION['country'] = '';
+//    }
+//}
+//echo  $_SESSION['country'];
+//if (in_array($_SESSION['country'], ['CN', 'KR', 'KP', 'TR', 'IN'])) {
+//    echo 'This website is not available in your country';
+//    exit;
+//}
 	
 get_header(); ?>
 
