@@ -175,7 +175,7 @@ $args = array('meta_key' => $meta_key , 'hide_empty'    => false , 'meta_value' 
 		 				$produitSansCategorie = false;
 		 				
 		 				// TEST SI CATEGORIE PAS DEJA AFFICHE
-			 			if(!in_array($category->term_id , $tabIdCategory))
+			 			if($tabIdCategory && !in_array($category->term_id , $tabIdCategory))
 			 			{
 			 				// SINON ON MET DANS TABLEAU DES CATEGORIES PAS AFFICHE
 			 				$tabIdCategory[] = $category->term_id; 
