@@ -223,9 +223,9 @@ if(!empty($file))
 		
 		$file = "";
 		
-		if($_SESSION['qcs-type'] == 'supplier')
-		 	$file = rwmb_meta('PRODUCT_document_center_suppliers_file' , '' , $post->ID);
-		else
+//		if($_SESSION['qcs-type'] == 'supplier')
+//		 	$file = rwmb_meta('PRODUCT_document_center_suppliers_file' , '' , $post->ID);
+//		else
 			$file = rwmb_meta('PRODUCT_document_center_distributors_file' , '' , $post->ID);
 		
 		if(!empty($file))

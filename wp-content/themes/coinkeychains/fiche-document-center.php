@@ -134,9 +134,9 @@ get_header(); ?>
 	
 									// echo "type = " . $_SESSION['qcs-type'];
 									
-									if($_SESSION['qcs-type'] == 'supplier')
-										$file = rwmb_meta('PRODUCT_document_center_suppliers_file' , '' , $product->ID);
-									else
+//									if($_SESSION['qcs-type'] == 'supplier')
+//										$file = rwmb_meta('PRODUCT_document_center_suppliers_file' , '' , $product->ID);
+//									else
 										$file = rwmb_meta('PRODUCT_document_center_distributors_file' , '' , $product->ID);
 									
 									$file = str_replace("www" , "dl" , $file);
