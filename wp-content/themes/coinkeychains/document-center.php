@@ -133,7 +133,7 @@ get_header(); ?>
 		 			{
 			 		
 		 				// TEST SI PRODUIT PAS DEJA AFFICHE
-			 			if(!in_array($product->ID , $tabIdProduit))
+			 			if(!$tabIdProduit || !in_array($product->ID , $tabIdProduit))
 			 			{
 			 				$tabIdProduit[] = $product->ID;
 			 				
