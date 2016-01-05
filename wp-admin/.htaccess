@@ -1,0 +1,7 @@
+AuthName "Authentification"
+AuthType Basic
+AuthUserFile "/home/qcsasi6/public_html/qcsasia.com/wp-admin/pwd/.htpasswd"
+Require valid-user
+
+Order allow,deny
+  Allow from all
