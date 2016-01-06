@@ -57,8 +57,8 @@ else
 <![endif]-->
 <?php wp_head(); ?>
 
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.1/jquery.jcarousel.js"></script>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.1/jquery.jcarousel-core.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.1/jquery.jcarousel.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.1/jquery.jcarousel-core.min.js"></script>
 
 
 <script type="text/javascript">
@@ -75,7 +75,7 @@ else
 
 </script>
 </head>
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> oncontextmenu="return false">
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 	
@@ -100,7 +100,7 @@ else
 		</div>
 	<?php } ?>	
 
-		<?php else : ?>				<a href = "<?php echo esc_url( home_url( '/' ) ); ?>"><img src = "http://www.qcsasia.com/wp-content/uploads/2014/04/IMG_53171.jpg" /></a>
+		<?php else : ?>				<a href = "<?php echo esc_url( home_url( '/' ) ); ?>"><img src = "https://www.qcsasia.com/wp-content/uploads/2015/11/logo.png" /></a>
 		
 		<hgroup>
 		
