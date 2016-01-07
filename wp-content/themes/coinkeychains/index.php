@@ -64,27 +64,35 @@ if (!isset($_SESSION['country']) || !$_SESSION['country']) {
     } else {
         $ip = $_SERVER['REMOTE_ADDR'];
     }
+    if ($_SERVER["HTTP_HOST"] == 'localhost') {
+            $ip = "61.220.251.250";
+            // test china
+//            $ip = "113.100.99.221";
+        }
+    $retrievedIp = $wpdb->query("SELECT ip FROM ip_blocked WHERE ip = '".$ip."'");
     
-//    test china
-//    $url = "http://ip2c.org/113.100.99.221";
-    $url = "http://ip2c.org/" . $ip;
+    if (!$retrievedIp) {
+    //    test china
+    //    $url = "http://ip2c.org/113.100.99.221";
+        $url = "http://ip2c.org/" . $ip;
 
-    set_time_limit(10);
+        set_time_limit(10);
 
-    $data = file_get_contents($url);
-    $reply = explode(';',$data);
+        $data = file_get_contents($url);
+        $reply = explode(';',$data);
 
-    if (isset($reply[1]) && $reply[1]) {
-        $_SESSION['country'] = $reply[1];
-    } else {
-        $_SESSION['country'] = '';
+        if (isset($reply[1]) && $reply[1]) {
+            $_SESSION['country'] = $reply[1];
+        } else {
+            $_SESSION['country'] = '';
+        }
+        if (in_array($_SESSION['country'], ['CN', 'KR', 'KP', 'TR', 'IN'])) {
+            $sqlQuery = "INSERT INTO ip_blocked (ip, country, date) VALUES ('".$ip."', '".$_SESSION['country']."', CURRENT_TIME)";
+        } else {
+            $sqlQuery = "INSERT INTO ip_unblocked (ip, country, date) VALUES ('".$ip."', '".$_SESSION['country']."', CURRENT_TIME)";
+        }
+        $wpdb->query($sqlQuery);
     }
-    if (in_array($_SESSION['country'], ['CN', 'KR', 'KP', 'TR', 'IN'])) {
-        $sqlQuery = "INSERT INTO ip_blocked (ip, country, date) VALUES ('".$ip."', '".$_SESSION['country']."', CURRENT_TIME)";
-    } else {
-        $sqlQuery = "INSERT INTO ip_unblocked (ip, country, date) VALUES ('".$ip."', '".$_SESSION['country']."', CURRENT_TIME)";
-    }
-    $wpdb->query($sqlQuery);
 }
 if (in_array($_SESSION['country'], ['CN', 'KR', 'KP', 'TR', 'IN'])) {
     echo 'This website is not available in your country';
