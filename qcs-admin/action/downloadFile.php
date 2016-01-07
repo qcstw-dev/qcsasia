@@ -21,7 +21,7 @@
 
 
     header("content-type: application/octet-stream");
- 	header("Content-Disposition: attachment; filename=\"" .  $filename . "\"");
+ 	header('Content-Disposition: attachment; filename="' .  $filename . '"');
 	header("Content-Length: ". filesize($link));
 	header("Pragma: no-cache");
 	header("Cache-Control: must-revalidate, post-check=0, pre-check=0, public");

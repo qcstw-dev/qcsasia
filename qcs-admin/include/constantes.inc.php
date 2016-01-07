@@ -3,16 +3,16 @@
 	//LOCAL
 	
 	define(HOST , "127.0.0.1");
-	define(DATABASE , "qcsasiac_qcsasia");
-	define(USER , "qcsasiac_qcsasia");
-	define(PASSWORD , "E}5,NsiGCsxc");
+	define(DATABASE , "qcsasi6_qcsasiac_qcsasia");
+	define(USER , "qcsasi6_qcsasia");
+	define(PASSWORD , "-obAfZh}#rE?");
 	define(MAILSERVER , "127.0.0.1");
 
 	//Mettre des '' au lieu des "" pour eviter que \n ne soit interprete
 	
-	define(AFFAIRE_DIRECTORY , '/home/qcsasiac/public_html/');
+	define(AFFAIRE_DIRECTORY , '/home/qcsasi6/public_html/qcsasia.com/qcs-admin/log/');
 	
-	define(BASE_URL , "http://www.qcsasia.com/");
+	define(BASE_URL , "https://www.qcsasia.com/");
 
 	
 	define(PROJECT , "QCS");

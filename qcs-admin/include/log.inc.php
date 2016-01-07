@@ -13,7 +13,7 @@
 
 			global $login; // Recupere la variable dans les pages qui inclues ce fichier
 			
-			$logFileName = AFFAIRE_DIRECTORY . '\\' . $login . '-' . $date . '.txt';
+			$logFileName = AFFAIRE_DIRECTORY . $login . '-' . $date . '.txt';
 			
 			$file = fopen($logFileName, "a");
 	
