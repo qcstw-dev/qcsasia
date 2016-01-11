@@ -222,7 +222,7 @@ get_header(); ?>
 	  	?>
 
 
-<div class="cartouche-categorie-home-wrapper">	<div class="cartouche-categorie-home"><a class="lienThumbnailCategory-4" href="http://www.qcsasia.com/products/?idSelectedLigne=13"><img src="http://www.qcsasia.com/wp-content/uploads/2014/03/KEYCHAINLICENCEPACKAGE2.jpg" class="imagecategoryfloat thumbnail-1"><img src="http://www.qcsasia.com/wp-content/uploads/2014/03/LUGGAGETAGLICENCE3.jpg" class="imagecategoryfloat thumbnail-2"><img src="http://www.qcsasia.com/wp-content/uploads/2014/03/KEYCHAINLICENCEPACKAGE.jpg" class="imagecategoryclear thumbnail-3"><img src="http://www.qcsasia.com/wp-content/uploads/2014/03/MAGNETLICENCE3.jpg" class="imagecategoryfloat thumbnail-4"></a>	</div><center><h2>Licence and patent exploitation</h2></center></div>
+<div class="cartouche-categorie-home-wrapper">	<div class="cartouche-categorie-home"><a class="lienThumbnailCategory-4" href="/products/?idSelectedLigne=13"><img src="/wp-content/uploads/2014/03/KEYCHAINLICENCEPACKAGE2.jpg" class="imagecategoryfloat thumbnail-1"><img src="/wp-content/uploads/2014/03/LUGGAGETAGLICENCE3.jpg" class="imagecategoryfloat thumbnail-2"><img src="/wp-content/uploads/2014/03/KEYCHAINLICENCEPACKAGE.jpg" class="imagecategoryclear thumbnail-3"><img src="/wp-content/uploads/2014/03/MAGNETLICENCE3.jpg" class="imagecategoryfloat thumbnail-4"></a>	</div><center><h2>Licence and patent exploitation</h2></center></div>
 
 	<hr/>
 		

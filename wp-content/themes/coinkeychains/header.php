@@ -131,7 +131,7 @@ else
 		<!-- SEARCH FORM -->
 		<!-- ###########################################################################" -->
 		
-		<form role="search" method="get" id="searchform" class="searchform" action="http://www.qcsasia.com/">
+		<form role="search" method="get" id="searchform" class="searchform" action="<?php echo site_url(); ?>">
 				<div>
 					<label class="screen-reader-text" for="s">Search for:</label>
 					<input type="text" value="" name="s" id="s"/>
@@ -465,7 +465,7 @@ else
 
 	else if($slug == 'category-list-2')
 	{
-		echo "<a href = 'http://www.qcsasia.com/category-list-2'>All promotional products</a> > \n";
+		echo "<a href = '".site_url()."/category-list-2'>All promotional products</a> > \n";
 	
 		$idSelectedCategory2 = $_REQUEST['idSelectedCategory2'];
 		$idSelectedCategory1 = $_REQUEST['idSelectedCategory1'];
@@ -493,7 +493,7 @@ else
 	}
 	else if($_REQUEST['sort'] == 'function')
 	{
-		echo "<a href = 'http://www.qcsasia.com/search/?sort=function'>Sort by function</a> > \n";
+		echo "<a href = '".site_url()."/search/?sort=function'>Sort by function</a> > \n";
 		
 		$idSelectedCategory2 = $_REQUEST['idSelectedCategory2'];
 		$idSelectedCategory1 = $_REQUEST['idSelectedCategory1'];
@@ -521,7 +521,7 @@ else
 	}
 	else if($_REQUEST['sort'] == 'delivery')
 	{
-		echo "<a href = 'http://www.qcsasia.com/search/?sort=delivery'>Sort by delivery time</a> > \n";
+		echo "<a href = '".site_url()."/search/?sort=delivery'>Sort by delivery time</a> > \n";
 	
 		$idSelectedCategory2 = $_REQUEST['idSelectedCategory2'];
 		$idSelectedCategory1 = $_REQUEST['idSelectedCategory1'];
@@ -549,7 +549,7 @@ else
 	}
 	else if($_REQUEST['sort'] == 'logo')
 	{
-		echo "<a href = 'http://www.qcsasia.com/search/?sort=logo'>Sort by logo process</a> > \n";
+		echo "<a href = '".site_url()."/search/?sort=logo'>Sort by logo process</a> > \n";
 	
 		$idSelectedCategory2 = $_REQUEST['idSelectedCategory2'];
 		$idSelectedCategory1 = $_REQUEST['idSelectedCategory1'];
@@ -578,7 +578,7 @@ else
 	}
 	else if($_REQUEST['sort'] == 'cheap')
 	{
-		echo "<a href = 'http://www.qcsasia.com/search/?sort=cheap'>Sort by cheap items</a> > \n";
+		echo "<a href = '".site_url()."/search/?sort=cheap'>Sort by cheap items</a> > \n";
 	
 		$idSelectedCategory2 = $_REQUEST['idSelectedCategory2'];
 		$idSelectedCategory1 = $_REQUEST['idSelectedCategory1'];
@@ -606,7 +606,7 @@ else
 	}
 	else if($_REQUEST['sort'] == 'design')
 	{
-		echo "<a href = 'http://www.qcsasia.com/search/?sort=logo'>Sort by design</a> > \n";
+		echo "<a href = '".site_url()."/search/?sort=logo'>Sort by design</a> > \n";
 	
 		$idSelectedCategory2 = $_REQUEST['idSelectedCategory2'];
 		$idSelectedCategory1 = $_REQUEST['idSelectedCategory1'];
@@ -635,7 +635,7 @@ else
 	}
 	else if($_REQUEST['sort'] == 'patent')
 	{
-		echo "<a href = 'http://www.qcsasia.com/search/?sort=patent'>Sort by patent</a> > \n";
+		echo "<a href = '".site_url()."/search/?sort=patent'>Sort by patent</a> > \n";
 	
 		$idSelectedCategory2 = $_REQUEST['idSelectedCategory2'];
 		$idSelectedCategory1 = $_REQUEST['idSelectedCategory1'];
@@ -664,7 +664,7 @@ else
 	}
 	else if($_REQUEST['sort'] == 'program')
 	{
-		echo "<a href = 'http://www.qcsasia.com/search/?sort=program'>Sort by program</a> > \n";
+		echo "<a href = '".site_url()."/search/?sort=program'>Sort by program</a> > \n";
 		
 		$idSelectedCategory2 = $_REQUEST['idSelectedCategory2'];
 		$idSelectedCategory1 = $_REQUEST['idSelectedCategory1'];
@@ -696,7 +696,7 @@ else
 		
 		echo "<a href = '/member-area-index/'>Member area</a> > ";
 		
-		echo "<a href = 'http://www.qcsasia.com/sales-program'>Rush service</a> > \n";
+		echo "<a href = '".site_url()."/sales-program'>Rush service</a> > \n";
 
 		$idSelectedCategory2 = $_REQUEST['idSelectedCategory2'];
 		$idSelectedCategory1 = $_REQUEST['idSelectedCategory1'];
@@ -746,7 +746,7 @@ else
 	}
 	else if($_REQUEST['sort'] == 'new')
 	{
-		echo "<a href = 'http://www.qcsasia.com/search/?sort=new'>New products</a> > \n";
+		echo "<a href = '".site_url()."/search/?sort=new'>New products</a> > \n";
 		
 		$idSelectedCategory1 = $_REQUEST['idSelectedCategory1'];
 
@@ -761,32 +761,32 @@ else
 	}
 	else if(wp_get_referer() == 'http://www.qcsasia.com/search/?sort=new' && $post->post_type == 'product')
 	{
-		echo "<a href = 'http://www.qcsasia.com/search/?sort=new'>New products</a> > \n";
+		echo "<a href = '".site_url()."/search/?sort=new'>New products</a> > \n";
 		
 		echo the_title();
 	} // wp_get_referer() == 'http://www.qcsasia.com/giftsandsouvenirs/' && 
 	else if($slug == 'giftsandsouvenirs')
 	{
-		echo "<a href = 'http://www.qcsasia.com/giftsandsouvenirs/'>Gifts & Souvenirs</a> > \n";
+		echo "<a href = '".site_url()."/giftsandsouvenirs/'>Gifts & Souvenirs</a> > \n";
 	
 		if(!empty($_REQUEST['idTheme']))
 		{
 			$theme = get_post($_REQUEST['idTheme']);
 				
-			echo "<a href = 'http://www.qcsasia.com/giftsandsouvenirs/?idTheme=" . $_REQUEST['idTheme'] . "'>" . $theme->post_title . "</a>\n";
+			echo "<a href = '".site_url()."/giftsandsouvenirs/?idTheme=" . $_REQUEST['idTheme'] . "'>" . $theme->post_title . "</a>\n";
 		}
 	
 
 	}
 	else if($post->post_type == 'gift')
 	{
-		echo "<a href = 'http://www.qcsasia.com/giftsandsouvenirs/'>Gifts & Souvenirs</a> > \n";
+		echo "<a href = '".site_url()."/giftsandsouvenirs/'>Gifts & Souvenirs</a> > \n";
 		
 		if(!empty($_REQUEST['idTheme']))
 		{
 			$theme = get_post($_REQUEST['idTheme']);
 			
-			echo "<a href = 'http://www.qcsasia.com/giftsandsouvenirs/?idTheme=" . $_REQUEST['idTheme'] . "'>" . $theme->post_title . "</a> > \n";
+			echo "<a href = '".site_url()."/giftsandsouvenirs/?idTheme=" . $_REQUEST['idTheme'] . "'>" . $theme->post_title . "</a> > \n";
 		}
 		
 		echo the_title();
